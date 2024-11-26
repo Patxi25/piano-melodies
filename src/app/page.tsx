@@ -1,7 +1,8 @@
 import Head from "next/head";
-import styles from './styles.module.css'
+import styles from './styles.module.css';
+import Footer from "./components/Footer";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +14,7 @@ export default function Home() {
       <header className={styles.header}>
         <h1 className={styles.title}>Welcome to Piano Melodies</h1>
         <p className={styles.description}>
-          Learn paino from the best instructors.
+          Learn piano from the best instructors.
         </p>
         <button className={styles.ctaButton}>Join Our Classes</button>
       </header>
@@ -31,14 +32,13 @@ export default function Home() {
 
         <section className={styles.section}>
           <h2>Our Classes</h2>
-          <p> We offer classes for all levels, from beginners to advanced pianists.</p>
+          <p>We offer classes for all levels, from beginners to advanced pianists.</p>
         </section>
       </main>
 
-      <footer className={styles.footer}>
-        <p>&copy; 2025 Piano Melodies. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
-
   );
-}
+};
+
+export default Home;
