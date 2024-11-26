@@ -1,6 +1,5 @@
 import Head from "next/head";
 import styles from './styles.module.css';
-import Footer from "./components/Footer";
 
 const Home: React.FC = () => {
   return (
@@ -35,8 +34,6 @@ const Home: React.FC = () => {
           <p>We offer classes for all levels, from beginners to advanced pianists.</p>
         </section>
       </main>
-
-      <Footer />
     </div>
   );
 };
