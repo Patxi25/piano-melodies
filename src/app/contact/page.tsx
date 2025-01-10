@@ -1,5 +1,6 @@
 import { FaInstagram } from "react-icons/fa";
 import styles from "./styles.module.css";
+import Button from "../components/button";
 
 const ContactPage: React.FC = () => (
   <div className={styles.contactPage}>
@@ -41,7 +42,7 @@ const ContactPage: React.FC = () => (
         <label htmlFor="message">Message</label>
         <textarea id="message" name="message" rows={5} placeholder="Tell us about your interest in piano classes" required></textarea>
 
-        <button type="submit">Send Message</button>
+        <Button type="submit">Send Message</Button>
       </form>
     </div>
 
