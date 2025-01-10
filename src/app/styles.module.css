@@ -6,10 +6,28 @@
   }
   
   .header {
-    background: url('/piano-background.jpg') no-repeat center center/cover;
-    color: white;
-    text-align: center;
+    color: black;
     padding: 50px 20px;
+  }
+
+  .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .textContent {
+    flex: 1;
+    margin-right: 20px; /* Space between text and image */
+  }
+
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
   }
   
   .nav {
@@ -35,7 +53,7 @@
   }
   
   .ctaButton {
-    background: #FFD700;
+    background: #7cb4d6;
     border: none;
     color: black;
     padding: 10px 20px;
@@ -45,20 +63,12 @@
   }
   
   .ctaButton:hover {
-    background: #FFC107;
+    background: #4B94C3;
   }
   
   .section {
     margin: 20px auto;
     max-width: 800px;
     text-align: center;
-  }
-  
-  .footer {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
   }
   

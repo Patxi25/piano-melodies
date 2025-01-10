@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
       <div className={styles.logoTitleContainer}>
         <div className={styles.logoContainer}>
           <Image
-            src="/images/logo_naked.PNG" // Replace this with the path to your logo file
+            src="/images/logo_naked.PNG"
             alt="Piano Melodies Logo"
             width={80}
             height={80}
