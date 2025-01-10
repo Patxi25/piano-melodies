@@ -1,3 +1,4 @@
+import { FaInstagram } from "react-icons/fa";
 import styles from './styles.module.css';
 
 export const Footer: React.FC = () => {
