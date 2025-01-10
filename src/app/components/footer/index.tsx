@@ -3,13 +3,13 @@ import styles from './styles.module.css';
 export const Footer: React.FC = () => {
   return (
     <footer className={styles.footer}>
-      <p>&copy; 2025 Piano Melodies. All rights reserved.</p>
-      <p>
-        Follow us on:
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"> Facebook</a> |
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"> Instagram</a> |
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> Twitter</a>
-      </p>
+      <div className={styles.footerContent}>
+        <p>&copy; 2025 Piano Melodies. All rights reserved.</p>
+        <p>
+          Follow us on:
+          <a href="https://www.instagram.com/pianomelodies_studio/" target="_blank" rel="noopener noreferrer"> Instagram</a>
+        </p>
+      </div>
     </footer>
   );
 };
