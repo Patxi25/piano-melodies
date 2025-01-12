@@ -80,21 +80,6 @@
     border-radius: 5px;
   }
   
-  .contactForm button {
-    background: #4B94C3;
-    color: white;
-    font-size: 1rem;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .contactForm button:hover {
-    background: #26687e;
-  }
-  
   .socialMedia {
     text-align: left;
   }

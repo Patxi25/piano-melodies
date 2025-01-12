@@ -1,3 +1,5 @@
+'use client';
+
 import { FaInstagram } from "react-icons/fa";
 import styles from "./styles.module.css";
 import Button from "../components/button";
@@ -14,8 +16,7 @@ const ContactPage: React.FC = () => (
       <div>
         <h2>Email</h2>
         <p>
-        {/* TODO: replace EMAIL HERE with the actual email address */}
-          <a href="mailto:EMAIL HERE">EMAIL HERE</a>
+          <a href="mailto:pianomelodiesstudio@gmail.com">pianomelodiesstudio@gmail.com</a>
         </p>
       </div>
       <div>
@@ -29,21 +30,15 @@ const ContactPage: React.FC = () => (
     {/* Contact Form */}
     <div className={styles.formContainer}>
       <h2>Interested in a Class?</h2>
-      <form className={styles.contactForm}>
-        <label htmlFor="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your Name" required />
-
-        <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Your Email" required />
-
-        <label htmlFor="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" />
-
-        <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows={5} placeholder="Tell us about your interest in piano classes" required></textarea>
-
-        <Button type="submit">Send Message</Button>
-      </form>
+      <p>Fill out the form below and we'll get back to you soon.</p>
+      <div className={styles.formContainer}>
+        {/* TODO: Fix link */}
+      <Button
+          onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdagbhutWCwhnFpWNNuGhkcSsnRV5aEC_aA5z-cc7rCDXOYXw/viewform', '_blank')}
+        >
+          Fill Out Inquiry Form
+        </Button>
+      </div>
     </div>
 
     {/* Social Media Links */}
@@ -52,7 +47,7 @@ const ContactPage: React.FC = () => (
       <p>
         <FaInstagram className={styles.icon} />
         <a href="https://www.instagram.com/pianomelodies_studio/" target="_blank" rel="noopener noreferrer">
-          Instagram
+        &nbsp;Instagram
         </a>
       </p>
     </div>

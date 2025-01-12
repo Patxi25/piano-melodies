@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from 'next/image';
 import styles from './styles.module.css';
+import Button from "./components/button";
 
 const HomePage = () => (
   <div className={styles.container}>
@@ -21,7 +22,7 @@ const HomePage = () => (
             Scroll down and take a look through our site to see what we have to offer, and get in touch with questions.
           </p>
           <p>We offer classes for all levels, from beginners to advanced pianists.</p>
-          <button className={styles.ctaButton}>Join Our Classes</button>
+          <Button>Join Our Classes</Button>
         </div>
 
         <div className={styles.imageContainer}>
