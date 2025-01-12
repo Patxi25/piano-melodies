@@ -45,11 +45,10 @@ const AboutPage = () => (
 
       <div className={styles.ctaSection}>
         <p>Ready to start your piano journey? Reach out to us for more information!</p>
-        {/* TODO: Fix link */}
         <Button
           onClick={() =>
             window.open(
-              'https://docs.google.com/forms/d/e/1FAIpQLSdagbhutWCwhnFpWNNuGhkcSsnRV5aEC_aA5z-cc7rCDXOYXw/viewform',
+              'https://docs.google.com/forms/d/e/1FAIpQLSehNapZOV3DjqfkuqMJQ9fqAjjG6MiNUI4ksfdlDmWWEdfNBA/viewform',
               '_blank'
             )
           }

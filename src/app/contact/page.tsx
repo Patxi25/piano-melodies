@@ -1,6 +1,6 @@
 'use client';
 
-import { FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import styles from "./styles.module.css";
 import Button from "../components/button";
 
@@ -32,9 +32,8 @@ const ContactPage: React.FC = () => (
       <h2>Interested in a Class?</h2>
       <p>Fill out the form below and we'll get back to you soon.</p>
       <div className={styles.formContainer}>
-        {/* TODO: Fix link */}
       <Button
-          onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdagbhutWCwhnFpWNNuGhkcSsnRV5aEC_aA5z-cc7rCDXOYXw/viewform', '_blank')}
+          onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSehNapZOV3DjqfkuqMJQ9fqAjjG6MiNUI4ksfdlDmWWEdfNBA/viewform', '_blank')}
         >
           Fill Out Inquiry Form
         </Button>
@@ -48,6 +47,12 @@ const ContactPage: React.FC = () => (
         <FaInstagram className={styles.icon} />
         <a href="https://www.instagram.com/pianomelodies_studio/" target="_blank" rel="noopener noreferrer">
         &nbsp;Instagram
+        </a>
+        </p>
+      <p>
+        <FaFacebook className={styles.icon} />
+        <a href="https://www.facebook.com/p/Piano-Melodies-61567913116105/" target="_blank" rel="noopener noreferrer">
+        &nbsp;Facebook
         </a>
       </p>
     </div>
