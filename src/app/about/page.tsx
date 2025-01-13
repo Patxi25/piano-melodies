@@ -25,8 +25,8 @@ const AboutPage = () => (
         <ContentSection
           title="Meet the Founder"
           description={[
-            "Begoña graduated from the University of Miami in 2022 with a double major in Music Therapy and Psychology. She went on to pursue her Psychology Master’s degree in Madrid, Spain, where she specialized in Early Child Intervention.",
-            "Begoña believes that creating a fun and engaging space for students to learn in enhances a curious mind and encourages students to continue learning music.",
+            "Begoña Alberdi is a Board-Certified Music Therapist. She graduated from the University of Miami in 2022 with a Bachelor Degree in Music Therapy and a Minor in Psychology.",
+            "After completing her music therapy internship, she went to Spain to pursue her Master's Degree in Psychology specializing in Early Child Intervention and graduated in 2023. Since her time at the University of Miami, she has been teaching piano around the community. In January 2024 she founded Piano Melodies LLC.",
             "With five years of teaching experience, Begoña works with students on the autism spectrum, ADHD, and neurotypical students.",
           ]}
           imageSrc="/images/begona_portrait.png"

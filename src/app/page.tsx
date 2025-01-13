@@ -1,3 +1,5 @@
+'use client';
+
 import Head from "next/head";
 import Image from 'next/image';
 import styles from './styles.module.css';
@@ -16,13 +18,18 @@ const HomePage = () => (
         <div className={styles.textContent}>
           <h1 className={styles.title}>Welcome to Piano Melodies Studio</h1>
           <p className={styles.description}>
-            Piano Melodies Studio offers piano classes for children of all ages, skill levels, and diagnoses. We make piano playing a fun and engaging experience! 🎶
+          At Piano Melodies, our mission is to make piano lessons accessible, enjoyable, and enriching for every child—regardless of diagnosis, challenge, or ability.
           </p>
           <p className={styles.description}>
-            Scroll down and take a look through our site to see what we have to offer, and get in touch with questions.
+          We proudly serve the Miami community, working with children of all ages, skill levels, and backgrounds. Our lessons are designed to go beyond musical knowledge, fostering growth that extends into students’ daily lives.
           </p>
-          <p>We offer classes for all levels, from beginners to advanced pianists.</p>
-          <Button>Join Our Classes</Button>
+          <p className={styles.description}>
+          We specialize in adaptive piano lessons with a music therapy approach, creating a supportive and engaging environment for children on the autism spectrum, those with ADHD, and neurotypical students alike. At Piano Melodies, we believe everyone deserves the chance to fall in love with music in a fun, inclusive space.
+          </p>
+          <Button
+          onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSehNapZOV3DjqfkuqMJQ9fqAjjG6MiNUI4ksfdlDmWWEdfNBA/viewform', '_blank')}
+          >
+          Join Our Classes</Button>
         </div>
 
         <div className={styles.imageContainer}>
@@ -37,7 +44,7 @@ const HomePage = () => (
       </div>
     </header>
     
-    <main className={styles.main}>
+    <main className={styles.headerContent}>
     </main>
   </div>
 );

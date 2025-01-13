@@ -19,7 +19,6 @@ export const Header: React.FC = () => {
         <ul className={styles.navList}>
           <li className={styles.navItem}><a href="/">Home</a></li>
           <li className={styles.navItem}><a href="/about">About Us</a></li>
-          <li className={styles.navItem}><a href="/classes">Our Classes</a></li>
           <li className={styles.navItem}><a href="/contact">Contact</a></li>
         </ul>
       </nav>
