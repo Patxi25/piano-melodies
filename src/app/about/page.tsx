@@ -34,6 +34,19 @@ const AboutPage = () => (
           imagePosition="left"
         />
 
+        {/* Employee 1 Section */}
+        <ContentSection
+          title="Meet Nicole"
+          description={[
+            "Nicole Hidalgo began learning piano at the age of six at Texas Christian University School of Music. She later became a part of the Frost Preparatory Program, where she was involved for 10 years. During her last year at the Frost Prep Program, she had the opportunity to volunteer as a Group Piano teacher assistant.",
+            "Nicole has worked as a private piano teacher for children throughout Miami and she is currently working with the Frost Preparatory Program, specifically leading and assisting the Suzuki for Tots Program and teaching piano lessons.",
+            "In addition to her musical passion, she is currently pursuing a degree in Nutritional Science and will go on to pursue another degree in Nursing.",
+          ]}
+          imageSrc="/images/nicole_portrait.jpeg"
+          imageAlt="Nicole Portrait"
+          imagePosition="right"
+        />
+
     </main>
   </div>
 );

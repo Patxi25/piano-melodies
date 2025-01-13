@@ -1,4 +1,3 @@
-import { FaInstagram } from "react-icons/fa";
 import styles from './styles.module.css';
 
 export const Footer: React.FC = () => {
@@ -9,7 +8,8 @@ export const Footer: React.FC = () => {
         <p className={styles.social}>
           Follow us on:
           <a href="https://www.instagram.com/pianomelodies_studio/" target="_blank" rel="noopener noreferrer"> Instagram</a> | 
-          <a href="https://www.facebook.com/p/Piano-Melodies-61567913116105/" target="_blank" rel="noopener noreferrer"> Facebook</a>
+          <a href="https://www.facebook.com/p/Piano-Melodies-61567913116105/" target="_blank" rel="noopener noreferrer"> Facebook</a> | 
+          <a href="https://www.linkedin.com/company/piano-melodies-llc/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
         </p>
       </div>
     </footer>

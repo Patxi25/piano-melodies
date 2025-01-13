@@ -1,6 +1,6 @@
 'use client';
 
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import styles from "./styles.module.css";
 import Button from "../components/button";
 
@@ -28,10 +28,10 @@ const ContactPage: React.FC = () => (
     </div>
 
     {/* Contact Form */}
-    <div className={styles.formContainer}>
+    <div className={styles.sectionContainer}>
       <h2>Interested in a Class?</h2>
       <p>Fill out the form below and we'll get back to you soon.</p>
-      <div className={styles.formContainer}>
+      <div className={styles.sectionContainer}>
       <Button
           onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSehNapZOV3DjqfkuqMJQ9fqAjjG6MiNUI4ksfdlDmWWEdfNBA/viewform', '_blank')}
         >
@@ -41,7 +41,7 @@ const ContactPage: React.FC = () => (
     </div>
 
     {/* Social Media Links */}
-    <div className={styles.socialMedia}>
+    <div className={styles.sectionContainer}>
       <h2>Follow Us</h2>
       <p>
         <FaInstagram className={styles.icon} />
@@ -53,6 +53,12 @@ const ContactPage: React.FC = () => (
         <FaFacebook className={styles.icon} />
         <a href="https://www.facebook.com/p/Piano-Melodies-61567913116105/" target="_blank" rel="noopener noreferrer">
         &nbsp;Facebook
+        </a>
+      </p>
+      <p>
+        <FaLinkedin className={styles.icon} />
+        <a href="https://www.linkedin.com/company/piano-melodies-llc/" target="_blank" rel="noopener noreferrer">
+        &nbsp;LinkedIn
         </a>
       </p>
     </div>
