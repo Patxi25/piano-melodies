@@ -1,0 +1,27 @@
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+  
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .text {
+    flex: 1;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
