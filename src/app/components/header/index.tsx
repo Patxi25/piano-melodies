@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import styles from './styles.module.css';
 
@@ -17,9 +18,15 @@ export const Header: React.FC = () => {
       </div>
       <nav>
         <ul className={styles.navList}>
-          <li className={styles.navItem}><a href="/">Home</a></li>
-          <li className={styles.navItem}><a href="/about">About Us</a></li>
-          <li className={styles.navItem}><a href="/contact">Contact</a></li>
+          <li className={styles.navItem}>
+            <Link href="/">Home</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/about">About Us</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/contact">Contact</Link>
+          </li>
         </ul>
       </nav>
     </header>

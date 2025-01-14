@@ -30,7 +30,7 @@ const ContactPage: React.FC = () => (
     {/* Contact Form */}
     <div className={styles.sectionContainer}>
       <h2>Interested in a Class?</h2>
-      <p>Fill out the form below and we'll get back to you soon.</p>
+      <p>Fill out the form below and we’ll get back to you soon.</p>
       <div className={styles.sectionContainer}>
       <Button
           onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSehNapZOV3DjqfkuqMJQ9fqAjjG6MiNUI4ksfdlDmWWEdfNBA/viewform', '_blank')}
