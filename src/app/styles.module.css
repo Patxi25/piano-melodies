@@ -1,74 +1,108 @@
 .container {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .header {
-    color: black;
-    padding: 50px 20px;
-  }
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.header {
+  color: black;
+  padding: 50px 20px;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.textContent {
+  flex: 1;
+  margin-right: 20px; /* Space between text and image */
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Text styling */
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.ctaButton {
+  background: #7cb4d6;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  background: #4B94C3;
+}
+
+/* Main Section */
+.section {
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Stack the header content on smaller screens */
   .headerContent {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-  }
-
-  .textContent {
-    flex: 1;
-    margin-right: 20px; /* Space between text and image */
-  }
-
-  .imageContainer {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px;
-  }
-  
-  .nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .title {
-    font-size: 2.5rem;
-  }
-  
-  .description {
-    font-size: 1.2rem;
-    margin: 10px 0;
-  }
-  
-  .ctaButton {
-    background: #7cb4d6;
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  .ctaButton:hover {
-    background: #4B94C3;
-  }
-  
-  .section {
-    margin: 20px auto;
-    max-width: 800px;
     text-align: center;
   }
-  
+
+  /* Adjust text size for smaller screens */
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  /* Adjust image size for smaller screens */
+  .imageContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .ctaButton {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .ctaButton {
+    font-size: 0.9rem;
+  }
+}

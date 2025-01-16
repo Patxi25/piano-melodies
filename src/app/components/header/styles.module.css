@@ -1,11 +1,13 @@
+/* Header styles */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
-  background-color: #054570;;
+  background-color: #054570;
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
 .logoTitleContainer {
@@ -20,14 +22,14 @@
   justify-content: center;
   width: 110px;
   height: 80px;
-  border-radius: 20%; /* Optional for a circular background */
+  border-radius: 20%;
   overflow: hidden;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .title {
-  font-size: 2rem; /* Adjust for balance with the logo */
+  font-size: 2rem;
   font-family: 'Playfair Display', serif;
   margin: 0;
   color: white;
@@ -36,12 +38,19 @@
   font-weight: 700;
 }
 
+.nav {
+  display: flex; /* Always visible on larger screens */
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+}
+
 .navList {
   display: flex;
   gap: 30px;
-  list-style: none;
+  list-style: none; /* Removes bullet points */
   padding: 0;
-  margin: 0;
+  align-items: center;
 }
 
 .navItem a {
@@ -57,4 +66,61 @@
 .navItem a:hover {
   color: #4B94C3;
   border-bottom: 2px solid #4B94C3;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+  display: none; /* Hide by default on larger screens */
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hamburgerBar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* Hidden by default on smaller screens */
+    flex-direction: column;
+    background-color: #054570;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+
+  .navOpen {
+    display: flex; /* Shown when the menu is toggled */
+  }
+
+  .navList {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger on smaller screens */
+  }
+
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .logoContainer {
+    display: none; /* Hide the logo */
+  }
 }
