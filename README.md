@@ -4,6 +4,14 @@ Welcome to the Piano Melodies Studio website! This project is a web application 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Prerequisites
+
+Make sure you have the following versions installed:
+
+- Node.js: `>= 23.3.0`
+- npm: `>= 10.9.0`
+- Next.js: `15.0.3`
+
 ## Installation
 
 1. Clone the repository:
