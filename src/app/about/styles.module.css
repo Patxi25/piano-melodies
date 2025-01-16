@@ -1,66 +1,108 @@
 .aboutPage {
-    font-family: 'Playfair Display', serif;
-    color: black;
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: white;
-  }
-  
-  .header h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: black;
-    margin-bottom: 40px;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-  
+  font-family: 'Playfair Display', serif;
+  color: black;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.founderSection,
+.studioSection,
+.employeeSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.text h2 {
+  color: #4B94C3;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.imageContainer {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.image {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
   .founderSection,
-  .studioSection {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-  }
-  
-  .text {
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .text h2 {
-    color: #4B94C3;
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-  }
-  
-  .text p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 15px;
-  }
-  
-  .imageContainer {
-    flex: 1;
-    min-width: 300px;
+  .studioSection,
+  .employeeSection {
+    flex-direction: column;
     text-align: center;
   }
-  
+
+  .text {
+    margin-bottom: 20px;
+  }
+
+  .imageContainer {
+    margin-top: 20px;
+  }
+
+  .text h2 {
+    font-size: 1.5rem;
+  }
+
+  .text p {
+    font-size: 0.9rem;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  /* Image adjustments for smaller screens */
   .image {
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
   }
-  
-  @media (max-width: 768px) {
-    .founderSection,
-    .studioSection {
-      flex-direction: column;
-      text-align: center;
-    }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.8rem;
   }
-  
+
+  .text h2 {
+    font-size: 1.4rem;
+  }
+
+  .text p {
+    font-size: 0.85rem;
+  }
+}

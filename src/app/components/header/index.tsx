@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 export const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navRef = useRef<HTMLDivElement>(null); // Ref for the navigation menu
-  const pathname = usePathname(); // Get the current pathname
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setMenuOpen((prevState) => !prevState);
