@@ -32,3 +32,30 @@
   margin: 10px 0;
   font-size: 0.9rem;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer p {
+    margin: 5px 0;
+    font-size: 0.8rem; /* Smaller font size for mobile */
+  }
+
+  .footer a {
+    margin: 0 5px; /* Reduce spacing for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 15px 0; /* Reduce padding for extra-small screens */
+  }
+
+  .footer p {
+    font-size: 0.75rem; /* Even smaller font size */
+  }
+}
