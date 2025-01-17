@@ -37,8 +37,7 @@ const HomePage = () => (
             src="/images/logo.PNG"
             alt="Piano Melodies Studio Logo"
             width={500}
-            height={300}
-            layout="intrinsic"
+            height={500}
           />
         </div>
       </div>
