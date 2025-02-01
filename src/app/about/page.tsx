@@ -14,7 +14,7 @@ const AboutPage = () => (
           "Piano Melodies is a piano studio working with both neurotypical and neurodivergent children and young adults, starting as young as 2 years of age.",
           "With a focus on making music a fun and engaging activity for any student, Piano Melodies is committed to providing a supportive space, regardless of any disability, challenge, or setback.",
         ]}
-        imageSrc="/images/begona_teaching.png"
+        imageSrc="/images/begona_teaching_2.jpeg"
         imageAlt="Begoña Teaching Piano"
         imagePosition="right"
       />
@@ -27,7 +27,7 @@ const AboutPage = () => (
           "After completing her music therapy internship, she went to Spain to pursue her Master's Degree in Psychology specializing in Early Child Intervention and graduated in 2023. Since her time at the University of Miami, she has been teaching piano around the community. In January 2024 she founded Piano Melodies LLC.",
           "With five years of teaching experience, Begoña works with students on the autism spectrum, ADHD, and neurotypical students.",
         ]}
-        imageSrc="/images/begona_portrait.png"
+        imageSrc="/images/begona_portrait_2.png"
         imageAlt="Begoña Portrait"
         imagePosition="left"
       />
