@@ -15,19 +15,28 @@ Make sure you have the following versions installed:
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/piano-melodies.git
    cd piano-melodies
    ```
 
-2. Install the dependencies:
+2. Use the correct Node.js version:
+
+   ```bash
+   nvm use 23.3.0
+   ```
+
+3. Install the dependencies:
+
    ```bash
    npm install
    ```
 
-3. Start the development server:
+4. Start the development server:
+
    ```bash
    npm run dev
    ```
 
-4. Open your browser and navigate to `http://localhost:3000` to see the application in action.
+5. Open your browser and navigate to `http://localhost:3000` to see the application in action.
