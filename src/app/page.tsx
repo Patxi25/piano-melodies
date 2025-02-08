@@ -100,9 +100,11 @@ const HomePage = () => (
           </div>
           <div className={styles.reviewContent}>
             <p>
-              "The adaptive piano lessons have made a huge difference for my
-              child with ADHD. The supportive environment has helped them
-              thrive."
+              "For two and a half years, Ms. Begoña has been teaching my boys
+              piano, and they are thriving under her guidance! She is
+              supportive, knowledgeable, and makes learning enjoyable for them.
+              She strikes the perfect balance between kindness and discipline.
+              We absolutely adore her!"
             </p>
             <footer>- Parent Name</footer>
           </div>
