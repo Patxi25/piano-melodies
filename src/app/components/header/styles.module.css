@@ -28,13 +28,20 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+@font-face {
+  font-family: "Lucida Handwriting Std";
+  src: url("/path/to/lucida-handwriting-std.woff2") format("woff2"),
+    url("/path/to/lucida-handwriting-std.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .title {
   font-size: 2rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Lucida Handwriting Std", cursive;
   margin: 0;
   color: white;
   letter-spacing: 1px;
-  text-transform: uppercase;
   font-weight: 700;
 }
 
@@ -54,6 +61,7 @@
 }
 
 .navItem a {
+  font-family: "Lucida Handwriting Std", cursive;
   color: white;
   text-decoration: none;
   font-size: 1rem;
@@ -64,8 +72,8 @@
 }
 
 .navItem a:hover {
-  color: #4B94C3;
-  border-bottom: 2px solid #4B94C3;
+  color: #4b94c3;
+  border-bottom: 2px solid #4b94c3;
 }
 
 /* Hamburger menu styles */
