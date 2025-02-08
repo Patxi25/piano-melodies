@@ -82,38 +82,6 @@
   margin-bottom: 20px;
 }
 
-.review {
-  background-color: #f9f9f9;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: left;
-}
-
-.reviewImageContainer {
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
-
-.reviewImage {
-  border-radius: 20%;
-}
-
-.review p {
-  font-size: 1rem;
-  margin: 0 0 10px 0;
-  flex: 1;
-}
-
-.review footer {
-  font-size: 0.9rem;
-  color: #555;
-}
-
 /* Responsive Styles */
 @media (max-width: 768px) {
   /* Stack the header content on smaller screens */
@@ -141,16 +109,6 @@
   .ctaButton {
     width: 100%;
     margin-top: 20px;
-  }
-
-  .review {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .reviewImageContainer {
-    margin-right: 0;
-    margin-bottom: 10px;
   }
 }
 

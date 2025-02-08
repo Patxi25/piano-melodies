@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "./Review.module.css";
+import styles from "./styles.module.css";
 
 interface ReviewProps {
   imageSrc: string;
