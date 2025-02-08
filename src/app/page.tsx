@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 import Button from "./components/button";
 
 const HomePage = () => (
-  <div className={styles.container}>
+  <div className={styles.homePage}>
     <Head>
       <title>Welcome to Piano Melodies Studio</title>
       <meta
@@ -61,7 +61,72 @@ const HomePage = () => (
       </div>
     </header>
 
-    <main className={styles.headerContent}></main>
+    <main className={styles.mainContent}>
+      {/* Reviews Section */}
+      <section className={styles.reviewsSection}>
+        <h2>What Parents Say About Us</h2>
+        <div className={styles.review}>
+          <div className={styles.reviewImageContainer}>
+            <Image
+              src="/images/student_1.png"
+              alt="Parent 1"
+              width={200}
+              height={300}
+              className={styles.reviewImage}
+            />
+          </div>
+          <div className={styles.reviewContent}>
+            <p>
+              "Begoña is amazing! She has been working with my son for three
+              years, since he was three years old, and with my daughter for one
+              year, since she was two. The kids love her, and so do I! She is
+              patient, understanding, and truly tailors each lesson to the
+              individual child, meeting them where they are. I have referred
+              multiple people to her—including myself! Give her a try; you won’t
+              be disappointed!"
+            </p>
+            <footer>- Parent Name</footer>
+          </div>
+        </div>
+        <div className={styles.review}>
+          <div className={styles.reviewImageContainer}>
+            <Image
+              src="/images/student_2.png"
+              alt="Parent 2"
+              width={200}
+              height={200}
+              className={styles.reviewImage}
+            />
+          </div>
+          <div className={styles.reviewContent}>
+            <p>
+              "The adaptive piano lessons have made a huge difference for my
+              child with ADHD. The supportive environment has helped them
+              thrive."
+            </p>
+            <footer>- Parent Name</footer>
+          </div>
+        </div>
+        <div className={styles.review}>
+          <div className={styles.reviewImageContainer}>
+            <Image
+              src="/images/student_3.png"
+              alt="Parent 3"
+              width={200}
+              height={200}
+              className={styles.reviewImage}
+            />
+          </div>
+          <div className={styles.reviewContent}>
+            <p>
+              "I highly recommend Piano Melodies to any parent looking for
+              quality music education for their children."
+            </p>
+            <footer>- Parent Name</footer>
+          </div>
+        </div>
+      </section>
+    </main>
   </div>
 );
 
