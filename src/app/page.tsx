@@ -69,14 +69,17 @@ const HomePage = () => (
         <Review
           imageSrc="/images/student_1.png"
           imageAlt="Parent 1"
-          reviewText="Begoña is amazing! She has been working with my son for three
-              years, since he was three years old, and with my daughter for one
-              year, since she was two. The kids love her, and so do I! She is
-              patient, understanding, and truly tailors each lesson to the
-              individual child, meeting them where they are. I have referred
-              multiple people to her—including myself! Give her a try; you won’t
-              be disappointed!"
+          reviewText="Miss Begoña is truly an exceptional piano teacher! Her professionalism and deep passion for 
+            music shine through in every lesson. She has a wonderful way with kids, making learning both fun and 
+            engaging while fostering a love for music. Her patience and encouragement create a supportive environment 
+            where students feel confident and excited to progress. 
+            Beyond her incredible teaching skills, Miss Begona goes the extra mile to make her students feel 
+            special—she even brings delicious baked goods during the holidays, adding a warm and personal touch to her 
+            lessons. If you’re looking for a dedicated, talented, and caring piano teacher, 
+            Miss Begona is the absolute best!"
           reviewerName="Parent Name"
+          imageWidth={200}
+          imageHeight={300}
         />
         <Review
           imageSrc="/images/student_2.png"
@@ -87,13 +90,22 @@ const HomePage = () => (
               She strikes the perfect balance between kindness and discipline.
               We absolutely adore her!"
           reviewerName="Parent Name"
+          imageWidth={200}
+          imageHeight={250}
         />
         <Review
           imageSrc="/images/student_3.png"
           imageAlt="Parent 3"
-          reviewText="I highly recommend Piano Melodies to any parent looking for
-              quality music education for their children."
+          reviewText="Begoña is amazing! She has been working with my son for three
+              years, since he was three years old, and with my daughter for one
+              year, since she was two. The kids love her, and so do I! She is
+              patient, understanding, and truly tailors each lesson to the
+              individual child, meeting them where they are. I have referred
+              multiple people to her—including myself! Give her a try; you won’t
+              be disappointed!"
           reviewerName="Parent Name"
+          imageWidth={200}
+          imageHeight={250}
         />
       </section>
     </main>

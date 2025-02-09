@@ -7,6 +7,8 @@ interface ReviewProps {
   imageAlt: string;
   reviewText: string;
   reviewerName: string;
+  imageWidth: number;
+  imageHeight: number;
 }
 
 const Review: React.FC<ReviewProps> = ({
@@ -14,14 +16,16 @@ const Review: React.FC<ReviewProps> = ({
   imageAlt,
   reviewText,
   reviewerName,
+  imageWidth,
+  imageHeight,
 }) => (
   <div className={styles.review}>
     <div className={styles.reviewImageContainer}>
       <Image
         src={imageSrc}
         alt={imageAlt}
-        width={150}
-        height={150}
+        width={imageWidth}
+        height={imageHeight}
         className={styles.reviewImage}
       />
     </div>
