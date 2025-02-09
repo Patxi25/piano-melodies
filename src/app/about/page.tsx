@@ -14,7 +14,7 @@ const AboutPage = () => (
           "Piano Melodies is a piano studio working with both neurotypical and neurodivergent children and young adults, starting as young as 2 years of age.",
           "With a focus on making music a fun and engaging activity for any student, Piano Melodies is committed to providing a supportive space, regardless of any disability, challenge, or setback.",
         ]}
-        imageSrc="/images/begona_teaching_2.jpeg"
+        imageSrc="/images/teaching/begona_teaching_2.jpeg"
         imageAlt="Begoña Teaching Piano"
         imagePosition="right"
       />
@@ -27,7 +27,7 @@ const AboutPage = () => (
           "After completing her music therapy internship, she went to Spain to pursue her Master's Degree in Psychology specializing in Early Child Intervention and graduated in 2023. Since her time at the University of Miami, she has been teaching piano around the community. In January 2024 she founded Piano Melodies LLC.",
           "With five years of teaching experience, Begoña works with students on the autism spectrum, ADHD, and neurotypical students.",
         ]}
-        imageSrc="/images/begona_portrait_2.png"
+        imageSrc="/images/portraits/begona_portrait_2.png"
         imageAlt="Begoña Portrait"
         imagePosition="left"
       />
@@ -40,8 +40,21 @@ const AboutPage = () => (
           "Nicole has worked as a private piano teacher for children throughout Miami and she is currently working with the Frost Preparatory Program, specifically leading and assisting the Suzuki for Tots Program and teaching piano lessons.",
           "In addition to her musical passion, she is currently pursuing a degree in Nutritional Science and will go on to pursue another degree in Nursing.",
         ]}
-        imageSrc="/images/nicole_portrait.jpeg"
+        imageSrc="/images/portraits/nicole_portrait.jpeg"
         imageAlt="Nicole Portrait"
+        imagePosition="right"
+      />
+
+      {/* Employee 2 Section */}
+      <ContentSection
+        title="Meet Ashia"
+        description={[
+          "Based in Miami, Florida, classical Pianist and Vocalist Ashia Barnes has been in the music field for an enjoyable 12 years sharing her knowledge of the craft to today’s youth and hungry minds.",
+          "Ashia’s favorite aspects of teaching is building strong and lasting connections with her students and encouraging them to keep striving for their dreams and desires.",
+          "She believes every musician is a unique individual. Therefore, the sound they make and the ideas they communicate are as unique and beautiful as they are.",
+        ]}
+        imageSrc="/images/portraits/ashia_portrait.png"
+        imageAlt="Ashia Portrait"
         imagePosition="right"
       />
     </main>

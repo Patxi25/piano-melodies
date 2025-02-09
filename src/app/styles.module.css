@@ -1,3 +1,7 @@
+.homePage {
+  padding: 20px;
+}
+
 .container {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -7,7 +11,7 @@
 
 .header {
   color: black;
-  padding: 50px 20px;
+  padding: 20px;
 }
 
 .headerContent {
@@ -21,13 +25,15 @@
 
 .textContent {
   flex: 1;
-  margin-right: 20px; /* Space between text and image */
+  margin-right: 10px; /* Space between text and image */
+  margin-bottom: 20px;
 }
 
 .imageContainer {
   flex: 1;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 /* Text styling */
@@ -63,16 +69,17 @@
 }
 
 .mainContent {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+  margin-top: 40px;
 }
 
-.additionalImageContainer {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+.reviewsSection {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.reviewsSection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 
 /* Responsive Styles */

@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect, useRef } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { usePathname } from 'next/navigation'; // Import usePathname
-import styles from './styles.module.css';
+import React, { useState, useEffect, useRef } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation"; // Import usePathname
+import styles from "./styles.module.css";
 
 export const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,11 +26,11 @@ export const Header: React.FC = () => {
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
 
     // Cleanup the event listener on unmount
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
@@ -42,11 +42,11 @@ export const Header: React.FC = () => {
       }
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Cleanup event listener on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -60,7 +60,7 @@ export const Header: React.FC = () => {
       <div className={styles.logoTitleContainer}>
         <div className={styles.logoContainer}>
           <Image
-            src="/images/logo_naked.PNG"
+            src="/images/logos/logo_naked.PNG"
             alt="Piano Melodies Logo"
             width={80}
             height={80}
@@ -79,7 +79,7 @@ export const Header: React.FC = () => {
       </button>
       <nav
         ref={navRef} // Attach the ref to the nav element
-        className={`${styles.nav} ${menuOpen ? styles.navOpen : ''}`}
+        className={`${styles.nav} ${menuOpen ? styles.navOpen : ""}`}
       >
         <ul className={styles.navList}>
           <li className={styles.navItem}>
@@ -90,6 +90,9 @@ export const Header: React.FC = () => {
           </li>
           <li className={styles.navItem}>
             <Link href="/contact">Contact</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/joinus">Join Us</Link>
           </li>
         </ul>
       </nav>

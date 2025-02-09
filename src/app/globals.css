@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 
 /* Global Color Variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #4B94C3;
+  --primary: #4b94c3;
   --primary-hover: #26687e;
 }
 
@@ -17,7 +17,6 @@
 
 /* Global Styles */
 body {
-  font-family: 'Arial', sans-serif;
   background-color: var(--background);
   color: var(--foreground);
   margin: 0;
@@ -29,7 +28,12 @@ a {
   color: inherit;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--foreground);
 }
 

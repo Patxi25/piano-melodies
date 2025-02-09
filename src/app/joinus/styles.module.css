@@ -1,4 +1,4 @@
-.contactPage {
+.joinUsPage {
   font-family: "Playfair Display", serif;
   color: black;
   max-width: 800px;
@@ -23,9 +23,6 @@
 
 .sectionContainer {
   margin-bottom: 40px;
-}
-
-.sectionContainer {
   text-align: left;
 }
 
