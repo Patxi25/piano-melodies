@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
@@ -40,7 +40,11 @@ const ContentSection: React.FC<ContentSectionProps> = ({
     <div
       className={styles.section}
       style={{
-        flexDirection: isMobile ? "column" : imagePosition === "left" ? "row-reverse" : "row", // Dynamically set layout
+        flexDirection: isMobile
+          ? "column"
+          : imagePosition === "left"
+          ? "row-reverse"
+          : "row", // Dynamically set layout
       }}
     >
       <div className={styles.text}>

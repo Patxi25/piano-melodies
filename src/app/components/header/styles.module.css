@@ -28,14 +28,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@font-face {
-  font-family: "Lucida Handwriting Std";
-  src: url("/path/to/lucida-handwriting-std.woff2") format("woff2"),
-    url("/path/to/lucida-handwriting-std.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .title {
   font-size: 2rem;
   font-family: "Lucida Handwriting Std", cursive;
