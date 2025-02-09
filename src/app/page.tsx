@@ -27,10 +27,10 @@ const HomePage = () => (
             challenge, or ability.
           </p>
           <p className={styles.description}>
-            We proudly serve the Miami community, working with children of all
-            ages, skill levels, and backgrounds. Our lessons are designed to go
-            beyond musical knowledge, fostering growth that extends into
-            students’ daily lives.
+            We proudly serve the Miami community, offering in-home lessons in
+            both English and Spanish for children of all ages, skill levels, and
+            backgrounds. Our lessons are designed to go beyond musical
+            knowledge, fostering growth that extends into students’ daily lives.
           </p>
           <p className={styles.description}>
             We specialize in adaptive piano lessons with a music therapy
@@ -39,6 +39,17 @@ const HomePage = () => (
             students alike. At Piano Melodies, we believe everyone deserves the
             chance to fall in love with music in a fun, inclusive space.
           </p>
+          <p className={styles.description}>
+            Piano Melodies proudly accepts scholarships from Step Up For
+            Students, making high-quality music education more accessible. We
+            believe every child deserves the opportunity to fall in love with
+            music in a fun, inclusive space.
+          </p>
+          <p className={styles.description}>
+            Each year, we organize a recital to highlight the achievements and
+            progress of our students.
+          </p>
+
           <Button
             onClick={() =>
               window.open(

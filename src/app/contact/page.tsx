@@ -32,6 +32,14 @@ const ContactPage: React.FC = () => (
     <div className={styles.sectionContainer}>
       <h2>Interested in a Class?</h2>
       <p>Fill out the form below and we’ll get back to you soon.</p>
+      <p>We accept scholarships from Step Up For Students.</p>
+      <p>
+        Our classes are bilingual and can be conducted in English and Spanish.
+      </p>
+      <p>
+        We offer piano and voice lessons in the convenience of your home
+        (Miami-based).
+      </p>
       <div className={styles.sectionContainer}>
         <Button
           onClick={() =>
@@ -41,7 +49,7 @@ const ContactPage: React.FC = () => (
             )
           }
         >
-          Fill Out Inquiry Form
+          Join Our Classes
         </Button>
       </div>
     </div>
