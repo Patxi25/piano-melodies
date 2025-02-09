@@ -53,7 +53,7 @@ const HomePage = () => (
 
         <div className={styles.imageContainer}>
           <Image
-            src="/images/logo.PNG"
+            src="/images/logos/logo.PNG"
             alt="Piano Melodies Studio Logo"
             width={500}
             height={500}
@@ -67,7 +67,7 @@ const HomePage = () => (
       <section className={styles.reviewsSection}>
         <h2>What Parents Say About Us</h2>
         <Review
-          imageSrc="/images/student_1.png"
+          imageSrc="/images/students/student_1.png"
           imageAlt="Parent 1"
           reviewText="Miss Begoña is truly an exceptional piano teacher! Her professionalism and deep passion for 
             music shine through in every lesson. She has a wonderful way with kids, making learning both fun and 
@@ -82,7 +82,7 @@ const HomePage = () => (
           imageHeight={300}
         />
         <Review
-          imageSrc="/images/student_2.png"
+          imageSrc="/images/students/student_2.png"
           imageAlt="Parent 2"
           reviewText="For two and a half years, Ms. Begoña has been teaching my boys
               piano, and they are thriving under her guidance! She is
@@ -94,7 +94,7 @@ const HomePage = () => (
           imageHeight={250}
         />
         <Review
-          imageSrc="/images/student_3.png"
+          imageSrc="/images/students/student_3.png"
           imageAlt="Parent 3"
           reviewText="Begoña is amazing! She has been working with my son for three
               years, since he was three years old, and with my daughter for one

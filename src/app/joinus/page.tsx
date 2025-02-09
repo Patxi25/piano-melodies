@@ -20,7 +20,7 @@ const JoinUsPage: React.FC = () => (
       description={[
         "At Piano Melodies, we are passionate about making piano lessons accessible and enjoyable for everyone. We are looking for dedicated individuals to join our team and help us achieve our mission.",
       ]}
-      imageSrc="/images/begona_teaching_5.png"
+      imageSrc="/images/teaching/begona_teaching_5.png"
       imageAlt="Begoña Teaching Piano"
       imagePosition="right"
     />
