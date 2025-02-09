@@ -40,10 +40,17 @@ const HomePage = () => (
             chance to fall in love with music in a fun, inclusive space.
           </p>
           <p className={styles.description}>
-            Piano Melodies proudly accepts scholarships from Step Up For
-            Students, making high-quality music education more accessible. We
-            believe every child deserves the opportunity to fall in love with
-            music in a fun, inclusive space.
+            Piano Melodies proudly accepts scholarships from{" "}
+            <a
+              href="https://www.stepupforstudents.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Step Up For Students
+            </a>
+            , making high-quality music education more accessible. We believe
+            every child deserves the opportunity to fall in love with music in a
+            fun, inclusive space.
           </p>
           <p className={styles.description}>
             Each year, we organize a recital to highlight the achievements and
@@ -68,6 +75,7 @@ const HomePage = () => (
             alt="Piano Melodies Studio Logo"
             width={500}
             height={500}
+            className={styles.image}
           />
         </div>
       </div>

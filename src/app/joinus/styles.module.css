@@ -17,7 +17,7 @@
 }
 
 .header p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #333;
 }
 
@@ -28,13 +28,25 @@
 
 .sectionContainer h2 {
   color: #4b94c3;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .sectionContainer a {
   color: black;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
+}
+
+.sectionContainer summary {
+  font-size: 1.2rem;
+}
+
+.sectionContainer li {
+  font-size: 1.1rem;
+}
+
+.sectionContainer p {
+  font-size: 1.1rem;
 }
 
 .sectionContainer a:hover {

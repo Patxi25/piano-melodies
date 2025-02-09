@@ -36,6 +36,14 @@
   margin-top: 20px;
 }
 
+.image {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
 /* Text styling */
 .title {
   font-size: 2.5rem;
@@ -97,7 +105,7 @@
   }
 
   .description {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   /* Adjust image size for smaller screens */
@@ -109,20 +117,5 @@
   .ctaButton {
     width: 100%;
     margin-top: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  /* Further adjustments for very small screens */
-  .title {
-    font-size: 1.8rem;
-  }
-
-  .description {
-    font-size: 0.9rem;
-  }
-
-  .ctaButton {
-    font-size: 0.9rem;
   }
 }
