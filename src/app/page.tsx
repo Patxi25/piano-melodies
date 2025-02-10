@@ -71,11 +71,12 @@ const HomePage = () => (
 
         <div className={styles.imageContainer}>
           <Image
-            src="/images/logos/logo.PNG"
+            src="/images/logos/logo.png"
             alt="Piano Melodies Studio Logo"
             width={500}
             height={500}
             className={styles.image}
+            priority
           />
         </div>
       </div>

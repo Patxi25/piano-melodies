@@ -60,7 +60,7 @@ export const Header: React.FC = () => {
       <div className={styles.logoTitleContainer}>
         <div className={styles.logoContainer}>
           <Image
-            src="/images/logos/logo_naked.PNG"
+            src="/images/logos/logo_naked.png"
             alt="Piano Melodies Logo"
             width={80}
             height={80}
