@@ -1,7 +1,7 @@
 .section {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   gap: 20px;
   flex-wrap: wrap; /* Ensure the content can wrap to the next line on small screens */
 }
@@ -22,7 +22,7 @@
 }
 
 .text p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 15px;
 }
@@ -57,11 +57,11 @@
   }
 
   .text {
-    margin-bottom: 20px; /* Space between text and image */
+    margin-bottom: 10px; /* Space between text and image */
   }
 
   .imageContainer {
-    margin-top: 20px; /* Space between image and text */
+    margin-top: 10px; /* Space between image and text */
   }
 
   .text h2 {

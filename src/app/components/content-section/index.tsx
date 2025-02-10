@@ -9,7 +9,7 @@ interface ContentSectionProps {
   description: string[];
   imageSrc: string;
   imageAlt: string;
-  imagePosition?: "left" | "right";
+  imagePosition: "left" | "right";
 }
 
 const ContentSection: React.FC<ContentSectionProps> = ({
@@ -17,20 +17,18 @@ const ContentSection: React.FC<ContentSectionProps> = ({
   description,
   imageSrc,
   imageAlt,
-  imagePosition = "right",
+  imagePosition,
 }) => {
   const [isMobile, setIsMobile] = useState(false);
 
-  // Check the screen size and set the order of the image and text
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); // Mobile screen width threshold
+      setIsMobile(window.innerWidth <= 768);
     };
 
-    handleResize(); // Initial check
     window.addEventListener("resize", handleResize);
+    handleResize();
 
-    // Cleanup the event listener
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -49,19 +47,32 @@ const ContentSection: React.FC<ContentSectionProps> = ({
     >
       <div className={styles.text}>
         <h2>{title}</h2>
+        {isMobile && (
+          <div className={styles.imageContainer}>
+            <Image
+              src={imageSrc}
+              alt={imageAlt}
+              width={400}
+              height={500}
+              className={styles.image}
+            />
+          </div>
+        )}
         {description.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
       </div>
-      <div className={styles.imageContainer}>
-        <Image
-          src={imageSrc}
-          alt={imageAlt}
-          width={400}
-          height={500}
-          className={styles.image}
-        />
-      </div>
+      {!isMobile && (
+        <div className={styles.imageContainer}>
+          <Image
+            src={imageSrc}
+            alt={imageAlt}
+            width={400}
+            height={500}
+            className={styles.image}
+          />
+        </div>
+      )}
     </div>
   );
 };

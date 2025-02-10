@@ -87,7 +87,7 @@ const HomePage = () => (
       <section className={styles.reviewsSection}>
         <h2>What Parents Say About Us</h2>
         <Review
-          imageSrc="/images/students/student_1.png"
+          imageSrc="/images/students/student_7.png"
           imageAlt="Parent 1"
           reviewText="Miss Begoña is truly an exceptional piano teacher! Her professionalism and deep passion for 
             music shine through in every lesson. She has a wonderful way with kids, making learning both fun and 
@@ -97,24 +97,24 @@ const HomePage = () => (
             special—she even brings delicious baked goods during the holidays, adding a warm and personal touch to her 
             lessons. If you’re looking for a dedicated, talented, and caring piano teacher, 
             Miss Begona is the absolute best!"
-          reviewerName="Parent Name"
+          reviewerName="Rashelle"
           imageWidth={200}
-          imageHeight={300}
+          imageHeight={250}
         />
         <Review
-          imageSrc="/images/students/student_2.png"
+          imageSrc="/images/students/student_5.png"
           imageAlt="Parent 2"
           reviewText="For two and a half years, Ms. Begoña has been teaching my boys
               piano, and they are thriving under her guidance! She is
               supportive, knowledgeable, and makes learning enjoyable for them.
               She strikes the perfect balance between kindness and discipline.
               We absolutely adore her!"
-          reviewerName="Parent Name"
+          reviewerName="Erika"
           imageWidth={200}
           imageHeight={250}
         />
         <Review
-          imageSrc="/images/students/student_3.png"
+          imageSrc="/images/students/student_1.png"
           imageAlt="Parent 3"
           reviewText="Begoña is amazing! She has been working with my son for three
               years, since he was three years old, and with my daughter for one
@@ -123,9 +123,9 @@ const HomePage = () => (
               individual child, meeting them where they are. I have referred
               multiple people to her—including myself! Give her a try; you won’t
               be disappointed!"
-          reviewerName="Parent Name"
+          reviewerName="Adrienne"
           imageWidth={200}
-          imageHeight={250}
+          imageHeight={300}
         />
       </section>
     </main>
