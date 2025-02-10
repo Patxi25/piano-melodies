@@ -42,8 +42,10 @@ const JoinUsPage: React.FC = () => (
       <details>
         <summary>What qualifications do I need to join the team?</summary>
         <p>
-          We are looking for individuals with a passion for music and teaching.
-          Previous experience in music education or therapy is a plus.
+          We are looking for individuals with a passion for teaching music to
+          children of all ages and abilities. Music Therapy Board Certification
+          (MT-BC) is preferred, and previous experience in music education is a
+          plus.
         </p>
       </details>
       <details>

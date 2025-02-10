@@ -3,6 +3,7 @@
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import styles from "./styles.module.css";
 import Button from "../components/button";
+import ContentSection from "../components/content-section";
 
 const ContactPage: React.FC = () => (
   <div className={styles.contactPage}>
@@ -29,29 +30,26 @@ const ContactPage: React.FC = () => (
     </div>
 
     {/* Contact Form */}
+    <ContentSection
+      title="Interested in a Class?"
+      description={[
+        "We accept scholarships from Step Up For Students. Our classes are bilingual and can be conducted in English and Spanish. We offer piano and voice lessons in the convenience of your home (Miami-based).",
+      ]}
+      imageSrc="/images/students/student_4.png"
+      imageAlt="Student 4"
+      imagePosition="right"
+    />
     <div className={styles.sectionContainer}>
-      <h2>Interested in a Class?</h2>
-      <p>Fill out the form below and we’ll get back to you soon.</p>
-      <p>We accept scholarships from Step Up For Students.</p>
-      <p>
-        Our classes are bilingual and can be conducted in English and Spanish.
-      </p>
-      <p>
-        We offer piano and voice lessons in the convenience of your home
-        (Miami-based).
-      </p>
-      <div className={styles.sectionContainer}>
-        <Button
-          onClick={() =>
-            window.open(
-              "https://docs.google.com/forms/d/e/1FAIpQLSehNapZOV3DjqfkuqMJQ9fqAjjG6MiNUI4ksfdlDmWWEdfNBA/viewform",
-              "_blank"
-            )
-          }
-        >
-          Join Our Classes
-        </Button>
-      </div>
+      <Button
+        onClick={() =>
+          window.open(
+            "https://docs.google.com/forms/d/e/1FAIpQLSehNapZOV3DjqfkuqMJQ9fqAjjG6MiNUI4ksfdlDmWWEdfNBA/viewform",
+            "_blank"
+          )
+        }
+      >
+        Join Our Classes
+      </Button>
     </div>
 
     {/* Social Media Links */}

@@ -55,7 +55,7 @@ const AboutPage = () => (
         ]}
         imageSrc="/images/portraits/ashia_portrait.png"
         imageAlt="Ashia Portrait"
-        imagePosition="right"
+        imagePosition="left"
       />
     </main>
   </div>
