@@ -44,19 +44,6 @@ const AboutPage = () => (
         imageAlt="Nicole Portrait"
         imagePosition="right"
       />
-
-      {/* Employee 2 Section */}
-      <ContentSection
-        title="Meet Ashia"
-        description={[
-          "Based in Miami, Florida, classical Pianist and Vocalist Ashia Barnes has been in the music field for an enjoyable 12 years sharing her knowledge of the craft to today’s youth and hungry minds.",
-          "Ashia’s favorite aspects of teaching is building strong and lasting connections with her students and encouraging them to keep striving for their dreams and desires.",
-          "She believes every musician is a unique individual. Therefore, the sound they make and the ideas they communicate are as unique and beautiful as they are.",
-        ]}
-        imageSrc="/images/portraits/ashia_portrait.png"
-        imageAlt="Ashia Portrait"
-        imagePosition="left"
-      />
     </main>
   </div>
 );
