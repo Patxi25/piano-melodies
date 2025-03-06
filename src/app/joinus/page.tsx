@@ -21,8 +21,19 @@ const JoinUsPage: React.FC = () => (
         "At Piano Melodies, we are passionate about making piano lessons accessible and enjoyable for everyone. We are looking for dedicated individuals to join our team and help us achieve our mission.",
       ]}
       imageSrc="/images/teaching/begona_teaching_5.png"
-      imageAlt="Begoña Teaching Piano"
+      imageAlt="Begoña with Student"
       imagePosition="right"
+    />
+
+    {/* Introduction Section */}
+    <ContentSection
+      title="Employee Testimonial"
+      description={[
+        "My time at Piano Melodies has been a fulfilling and amazing experience. The environment is supportive, and one feels valued as a teacher. The focus and values of the company are what makes each students’ experience a great one. One of the best aspects of working here is the fast, and easy communication with the team. I am thankful to be a part of a team in which students can learn to express themselves through music.” - Ms. Nicole",
+      ]}
+      imageSrc="/images/students/student_3.png"
+      imageAlt="Begoña Teaching Piano"
+      imagePosition="left"
     />
 
     {/* Benefits Section */}

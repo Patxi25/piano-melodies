@@ -11,10 +11,11 @@ const HomePage = () => (
     <Head>
       <title>Welcome to Piano Melodies Studio</title>
       <meta
+        title="Piano Melodies Studio"
         name="description"
-        content="Do you want a personal piano class? Call us today!"
+        content="Piano Melodies Studio offers personalized piano lessons in Miami, specializing in adaptive lessons with a music therapy approach for children of all ages and abilities."
       />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/public/images/logos/logo_cropped.jpg" />
     </Head>
 
     <header className={styles.header}>
