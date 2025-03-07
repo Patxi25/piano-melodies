@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 
 interface ContentSectionProps {
   title: string;
-  description: string[];
+  description: React.ReactNode[];
   imageSrc: string;
   imageAlt: string;
   imagePosition: "left" | "right";

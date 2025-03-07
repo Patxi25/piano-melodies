@@ -33,7 +33,19 @@ const ContactPage: React.FC = () => (
     <ContentSection
       title="Interested in a Class?"
       description={[
-        "We accept scholarships from Step Up For Students. Our classes are bilingual and can be conducted in English and Spanish. We offer piano and voice lessons in the convenience of your home (Miami-based).",
+        <>
+          We accept scholarships from{" "}
+          <a
+            href="https://www.stepupforstudents.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Step Up For Students
+          </a>
+          . Our classes are bilingual and can be conducted in English and
+          Spanish. We offer piano and voice lessons in the convenience of your
+          home (Miami-based).
+        </>,
       ]}
       imageSrc="/images/students/student_4.png"
       imageAlt="Student 4"
