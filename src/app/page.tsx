@@ -128,6 +128,19 @@ const HomePage = () => (
           imageWidth={200}
           imageHeight={300}
         />
+        <Review
+          imageSrc="/images/portraits/nicole_portrait.jpeg"
+          imageAlt="Nicole"
+          reviewText="My time at Piano Melodies has been a fulfilling and amazing experience. 
+              The environment is supportive, and one feels valued as a teacher. The focus and 
+              values of the company are what makes each students’ experience a great one. One 
+              of the best aspects of working here is the fast, and easy communication with the 
+              team. I am thankful to be a part of a team in which students can learn to express 
+              themselves through music."
+          reviewerName="Ms. Nicole"
+          imageWidth={200}
+          imageHeight={267}
+        />
       </section>
     </main>
   </div>
