@@ -24,7 +24,7 @@ Make sure you have the following versions installed:
 2. Use the correct Node.js version:
 
    ```bash
-   nvm use 23.3.0
+   nvm use 23.11.0
    ```
 
 3. Install the dependencies:
