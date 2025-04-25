@@ -27,7 +27,7 @@ const AboutPage = () => (
           "After completing her music therapy internship, she went to Spain to pursue her Master's Degree in Psychology specializing in Early Child Intervention and graduated in 2023. Since her time at the University of Miami, she has been teaching piano around the community. In January 2024 she founded Piano Melodies LLC.",
           "With five years of teaching experience, Begoña works with students on the autism spectrum, ADHD, and neurotypical students.",
         ]}
-        imageSrc="/images/portraits/begona_portrait_3.jpg"
+        imageSrc="/images/portraits/begona_portrait_4.png"
         imageAlt="Begoña Portrait"
         imagePosition="left"
       />
