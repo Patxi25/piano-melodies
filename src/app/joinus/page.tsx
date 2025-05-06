@@ -84,10 +84,7 @@ const JoinUsPage: React.FC = () => (
       <div className={styles.sectionContainer}>
         <Button
           onClick={() =>
-            window.open(
-              "https://docs.google.com/forms/d/e/1FAIpQLSdagbhutWCwhnFpWNNuGhkcSsnRV5aEC_aA5z-cc7rCDXOYXw/viewform?pli=1",
-              "_blank"
-            )
+            window.open("https://forms.gle/43GvHfD6edjfpMS16", "_blank")
           }
         >
           Join Our Team

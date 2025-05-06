@@ -60,10 +60,7 @@ const HomePage = () => (
 
           <Button
             onClick={() =>
-              window.open(
-                "https://docs.google.com/forms/d/e/1FAIpQLSehNapZOV3DjqfkuqMJQ9fqAjjG6MiNUI4ksfdlDmWWEdfNBA/viewform",
-                "_blank"
-              )
+              window.open("https://forms.gle/R1aSvUebtKH8XTbn9", "_blank")
             }
           >
             Join Our Classes
