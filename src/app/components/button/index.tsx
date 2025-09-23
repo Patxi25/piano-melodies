@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from "react";
 import styles from "./styles.module.css";
@@ -9,6 +9,7 @@ interface ButtonProps {
   type?: "button" | "submit" | "reset";
   className?: string;
   disabled?: boolean;
+  variant?: "default" | "cta" | "ghost";
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -17,12 +18,20 @@ const Button: React.FC<ButtonProps> = ({
   type = "button",
   className,
   disabled = false,
+  variant = "default",
 }) => {
+  const variantClass =
+    variant === "cta"
+      ? styles.cta
+      : variant === "ghost"
+      ? styles.ghost
+      : styles.button;
+
   return (
     <button
       type={type}
       onClick={onClick}
-      className={`${styles.button} ${className || ""}`}
+      className={`${variantClass} ${className || ""}`}
       disabled={disabled}
     >
       {children}

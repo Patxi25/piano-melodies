@@ -1,10 +1,10 @@
 "use client";
 
 import Head from "next/head";
-import Image from "next/image";
 import styles from "./styles.module.css";
 import Button from "./components/button";
 import Review from "./components/review";
+import ContentSection from "./components/content-section";
 
 const HomePage = () => (
   <div className={styles.homePage}>
@@ -18,72 +18,69 @@ const HomePage = () => (
       <link rel="icon" href="/public/images/logos/logo_cropped.jpg" />
     </Head>
 
-    <header className={styles.header}>
-      <div className={styles.headerContent}>
-        <div className={styles.textContent}>
-          <h1 className={styles.title}>Welcome to Piano Melodies Studio</h1>
-          <p className={styles.description}>
-            At Piano Melodies, our mission is to make piano lessons accessible,
-            enjoyable, and enriching for every child—regardless of diagnosis,
-            challenge, or ability.
-          </p>
-          <p className={styles.description}>
-            We proudly serve the Miami community, offering in-home lessons in
-            both English and Spanish for children of all ages, skill levels, and
-            backgrounds. Our lessons are designed to go beyond musical
-            knowledge, fostering growth that extends into students’ daily lives.
-          </p>
-          <p className={styles.description}>
-            We specialize in adaptive piano lessons with a music therapy
-            approach, creating a supportive and engaging environment for
-            children on the autism spectrum, those with ADHD, and neurotypical
-            students alike. At Piano Melodies, we believe everyone deserves the
-            chance to fall in love with music in a fun, inclusive space.
-          </p>
-          <p className={styles.description}>
-            Piano Melodies proudly accepts scholarships from{" "}
-            <a
-              href="https://www.stepupforstudents.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Step Up For Students
-            </a>
-            , making high-quality music education more accessible. We believe
-            every child deserves the opportunity to fall in love with music in a
-            fun, inclusive space.
-          </p>
-          <p className={styles.description}>
-            Each year, we organize a recital to highlight the achievements and
-            progress of our students.
-          </p>
-
-          <Button
-            onClick={() =>
-              window.open("https://forms.gle/R1aSvUebtKH8XTbn9", "_blank")
-            }
-          >
-            Join Our Classes
-          </Button>
-        </div>
-
-        <div className={styles.imageContainer}>
-          <Image
-            src="/images/logos/logo.png"
-            alt="Piano Melodies Studio Logo"
-            width={500}
-            height={500}
-            className={styles.image}
-            priority
-          />
-        </div>
-      </div>
-    </header>
-
     <main className={styles.mainContent}>
+      <div className={styles.textContent}>
+        {/* <h1 className={styles.title}>Welcome to Piano Melodies Studio</h1> */}
+        {/* Section 1 */}
+        <ContentSection
+          title="Where Every Melody Sparks Joy"
+          description={[
+            "At Piano Melodies, we believe every child deserves the chance to experience the joy of music. Our mission is to make piano lessons fun, engaging, and enriching for all children, regardless of a diagnosis, challenge, or ability.",
+            "We proudly serve the Miami community, offering personalized, in-home piano lessons in both English and Spanish. Whether your child is a complete beginner, already exploring their musical talents, or learning in unique ways, we meet them where they are and help them shine at their own pace.",
+          ]}
+          imageSrc="/images/logos/logo.png"
+          imageAlt="Piano Melodies Studio Logo"
+          imagePosition="right"
+        />
+
+        {/* Section 2 */}
+        <ContentSection
+          title="Our Lessons"
+          description={[
+            "Our lessons are more than piano practice. Through music, we nurture confidence, focus, creativity, and self-expression, skills that children carry with them long after the lesson ends.",
+            "With our adaptive approach and strong foundation in music therapy principles, we design lessons that are playful, flexible, and meaningful. Children on the autism spectrum, those with ADHD, speech delays, other developmental or learning differences, and neurotypical students all thrive in an environment built on encouragement, patience, and joy.",
+            <Button
+              key="join-home"
+              variant="cta"
+              onClick={() =>
+                window.open("https://forms.gle/R1aSvUebtKH8XTbn9", "_blank")
+              }
+            >
+              Join Our Classes
+            </Button>,
+          ]}
+          imageSrc="/images/teaching/group_picture_1.png"
+          imageAlt="Piano Melodies Recital Group"
+          imagePosition="left"
+        />
+
+        {/* Section 3 */}
+        <ContentSection
+          title="Our Commitment"
+          description={[
+            <p className={styles.description} key="commitment">
+              We’re also committed to keeping music education within reach for
+              families. That’s why Piano Melodies proudly accepts{" "}
+              <a
+                href="https://www.stepupforstudents.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Step Up For Students
+              </a>{" "}
+              scholarships, opening the door for more children to fall in love
+              with music.
+            </p>,
+          ]}
+          imageSrc="/images/teaching/begona_teaching_7.png"
+          imageAlt="Piano Melodies Recital Group"
+          imagePosition="right"
+        />
+      </div>
+
       {/* Reviews Section */}
       <section className={styles.reviewsSection}>
-        <h2>What Parents Say About Us</h2>
+        <h1>Our Testimonials</h1>
         <Review
           imageSrc="/images/students/student_7.png"
           imageAlt="Parent 1"
@@ -126,7 +123,7 @@ const HomePage = () => (
           imageHeight={300}
         />
         <Review
-          imageSrc="/images/portraits/nicole_portrait.jpeg"
+          imageSrc="/images/teaching/nicole_teaching.png"
           imageAlt="Nicole"
           reviewText="My time at Piano Melodies has been a fulfilling and amazing experience. 
               The environment is supportive, and one feels valued as a teacher. The focus and 
@@ -135,7 +132,7 @@ const HomePage = () => (
               team. I am thankful to be a part of a team in which students can learn to express 
               themselves through music."
           reviewerName="Ms. Nicole"
-          imageWidth={200}
+          imageWidth={400}
           imageHeight={267}
         />
       </section>
