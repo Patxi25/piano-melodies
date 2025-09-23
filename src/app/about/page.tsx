@@ -9,14 +9,25 @@ const AboutPage = () => (
     <main className={styles.content}>
       {/* Studio Section */}
       <ContentSection
-        title="Piano Melodies"
+        title="Who We Are"
         description={[
-          "Piano Melodies is a piano studio working with both neurotypical and neurodivergent children and young adults, starting as young as 2 years of age.",
-          "With a focus on making music a fun and engaging activity for any student, Piano Melodies is committed to providing a supportive space, regardless of any disability, challenge, or setback.",
+          "Piano Melodies is a piano studio dedicated to working with both neurotypical and neurodivergent children and young adults, starting as young as 3 years old.",
+          "We believe music should be an adventure that every child can enjoy, no matter their learning style, ability, or challenge. That’s why our lessons are flexible, personalized, and playful, designed to meet each student where they are.",
         ]}
-        imageSrc="/images/teaching/begona_teaching_2.jpeg"
+        imageSrc="/images/teaching/begona_teaching_6.png"
         imageAlt="Begoña Teaching Piano"
         imagePosition="right"
+      />
+
+      {/* Mission Statement Section */}
+      <ContentSection
+        title="Our Mission"
+        description={[
+          "At Piano Melodies, our mission is to make piano lessons fun, engaging, and enriching for every child, celebrating individuality, inspiring confidence, and nurturing a lifelong love of music. We envision a community where all children, regardless of challenge or ability, have the opportunity to grow, thrive, and discover the joy and connection that music brings.",
+        ]}
+        imageSrc="/images/teaching/begona_teaching_8.png"
+        imageAlt="Begoña Teaching Piano"
+        imagePosition="left"
       />
 
       {/* Founder Section */}
@@ -29,20 +40,20 @@ const AboutPage = () => (
         ]}
         imageSrc="/images/portraits/begona_portrait_4.png"
         imageAlt="Begoña Portrait"
-        imagePosition="left"
+        imagePosition="right"
       />
 
       {/* Employee 1 Section */}
       <ContentSection
         title="Meet Nicole"
         description={[
-          "Nicole Hidalgo began learning piano at the age of six at Texas Christian University School of Music. She later became a part of the Frost Preparatory Program, where she was involved for 10 years. During her last year at the Frost Prep Program, she had the opportunity to volunteer as a Group Piano teacher assistant.",
-          "Nicole has worked as a private piano teacher for children throughout Miami and she is currently working with the Frost Preparatory Program, specifically leading and assisting the Suzuki for Tots Program and teaching piano lessons.",
-          "In addition to her musical passion, she is currently pursuing a degree in Nutritional Science and will go on to pursue another degree in Nursing.",
+          "Nicole Hidalgo began studying piano at the age of six at Texas Christian University School of Music. She later joined the Frost Preparatory Program, where she trained for 10 years. In her final year there, she volunteered as a Group Piano Teacher Assistant, gaining valuable experience working with young students.",
+          "Nicole has since taught private piano lessons to children across Miami and continues to work with the Frost Preparatory Program. She currently assists and leads in the Suzuki for Tots Program and also teaches individual piano lessons.",
+          "Alongside her love for music and teaching, Nicole is pursuing a degree in Nutritional Science and plans to continue her studies in Nursing.",
         ]}
         imageSrc="/images/portraits/nicole_portrait.jpeg"
         imageAlt="Nicole Portrait"
-        imagePosition="right"
+        imagePosition="left"
       />
 
       {/* Employee 2 Section */}
@@ -56,7 +67,7 @@ const AboutPage = () => (
         ]}
         imageSrc="/images/portraits/brenda_portrait.png"
         imageAlt="Brenda Portrait"
-        imagePosition="left"
+        imagePosition="right"
       />
     </main>
   </div>

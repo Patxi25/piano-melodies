@@ -6,7 +6,8 @@ import styles from "./styles.module.css";
 
 interface ContentSectionProps {
   title: string;
-  description: React.ReactNode[];
+  // Allow strings or React nodes (so callers can pass <a> links, <strong>, etc.)
+  description: React.ReactNode | React.ReactNode[];
   imageSrc: string;
   imageAlt: string;
   imagePosition: "left" | "right";
@@ -58,17 +59,29 @@ const ContentSection: React.FC<ContentSectionProps> = ({
             />
           </div>
         )}
-        {description.map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
+        {/* If description is an array, render each item. If it's a single node/string, render it directly. */}
+        {Array.isArray(description) ? (
+          description.map((paragraph, index) =>
+            // If the item is a string, wrap in <p>. If it's a node (JSX), render as-is.
+            typeof paragraph === "string" ? (
+              <p key={index}>{paragraph}</p>
+            ) : (
+              <div key={index}>{paragraph}</div>
+            )
+          )
+        ) : typeof description === "string" ? (
+          <p>{description}</p>
+        ) : (
+          <div>{description}</div>
+        )}
       </div>
       {!isMobile && (
         <div className={styles.imageContainer}>
           <Image
             src={imageSrc}
             alt={imageAlt}
-            width={400}
-            height={500}
+            width={500}
+            height={800}
             className={styles.image}
           />
         </div>

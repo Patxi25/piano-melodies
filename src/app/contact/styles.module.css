@@ -1,17 +1,17 @@
 .contactPage {
   font-family: "Playfair Display", serif;
   color: black;
-  max-width: 800px;
-  margin: 0 auto;
   padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
 }
 
 .header {
   text-align: center;
   margin-bottom: 30px;
 }
-
-.header h1 {
+x .header h1 {
   color: black;
   font-size: 2.5rem;
 }
@@ -49,4 +49,52 @@
     flex-direction: column;
     align-items: center;
   }
+}
+
+/* Contact card styles */
+.contactCard {
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbfd 100%);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(5, 69, 112, 0.06);
+}
+
+.contactItem {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.contactItem strong {
+  width: 80px;
+  color: #054570;
+  font-weight: 700;
+}
+
+.socialList {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.socialLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #054570;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.socialLink:hover {
+  background: rgba(75, 148, 195, 0.06);
+  transform: translateY(-3px);
+}
+
+.icon {
+  color: #4b94c3;
 }
