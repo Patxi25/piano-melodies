@@ -15,7 +15,7 @@ const ContactPage: React.FC = () => (
       <ContentSection
         title="Scholarships and Bilingual Lessons"
         description={[
-          "We proudly accept Step Up For Students scholarships. Our lessons are bilingual, offered in both English and Spanish, and we provide piano and voice instruction right in the comfort of your home (Miami-based).",
+          "We proudly accept Step Up For Students scholarships. Our lessons are bilingual, offered in both English and Spanish, and we provide piano and violin lessons right in the comfort of your home (Miami-based).",
           <Button
             key="stepup-cta"
             variant="cta"
