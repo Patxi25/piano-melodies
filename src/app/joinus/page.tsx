@@ -55,7 +55,7 @@ const JoinUsPage: React.FC = () => (
             </div>
           </div>,
         ]}
-        imageSrc="/images/teaching/begona_teaching_5.png"
+        imageSrc="/images/teaching/nicole_teaching_2.png"
         imageAlt="Begoña with Student"
         imagePosition="right"
       />
@@ -65,7 +65,7 @@ const JoinUsPage: React.FC = () => (
         description={[
           "My time at Piano Melodies has been a fulfilling and amazing experience. The environment is supportive, and one feels valued as a teacher. The focus and values of the company are what makes each students’ experience a great one. One of the best aspects of working here is the fast, and easy communication with the team. I am thankful to be a part of a team in which students can learn to express themselves through music.",
         ]}
-        imageSrc="/images/teaching/nicole_teaching.png"
+        imageSrc="/images/teaching/nicole_teaching_3.png"
         imageAlt="Begoña Teaching Piano"
         imagePosition="left"
       />
