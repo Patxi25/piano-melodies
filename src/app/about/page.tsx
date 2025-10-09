@@ -69,6 +69,19 @@ const AboutPage = () => (
         imageAlt="Brenda Portrait"
         imagePosition="right"
       />
+
+      {/* Employee 3 Section */}
+      <ContentSection
+        title="Meet Maria"
+        description={[
+          "Maria Karla Molina Hernandez is a flutist and pianist from Camagüey, Cuba, now based in Miami. She began studying music at age 8 and has performed with youth orchestras, bands, choirs, and chamber ensembles.",
+          "After moving to the U.S., she joined the Musicall Youth Orchestra of Miami and performed at the 2024 Summa Cum Laude Festival in Austria, where her ensemble won 1st place. While there, she also took master classes with faculty from the University of Music and Performing Arts in Vienna.",
+          "Maria is currently pursuing a Music Performance degree (Flute & Piano) at Florida International University. With several years of teaching experience, she brings dedication and care to every student — sharing her love for both music education and music therapy.",
+        ]}
+        imageSrc="/images/portraits/maria_portrait.png"
+        imageAlt="Maria Portrait"
+        imagePosition="left"
+      />
     </main>
   </div>
 );
