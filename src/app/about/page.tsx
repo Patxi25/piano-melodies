@@ -82,6 +82,18 @@ const AboutPage = () => (
         imageAlt="Maria Portrait"
         imagePosition="left"
       />
+
+      {/* Employee 4 Section */}
+      <ContentSection
+        title="Meet Gabriela"
+        description={[
+          "Gabriela Timofte is a professional violinist, pianist, and educator. With extensive experience performing internationally as a soloist, chamber musician, and orchestral violinist, she has had the privilege of collaborating with renowned conductors and esteemed ensembles. In addition to her performance career, she is deeply passionate about music education and has over 8 years of experience. She has taught students ranging from young beginners to graduate-level musicians, providing both private instruction and ensemble coaching.",
+          "Gabriela has also worked with students on the spectrum, thoughtfully adapting her teaching approach to support a wide range of learning styles and needs. She is committed to fostering an inclusive and encouraging environment where every student can thrive. Her experience as a Graduate Assistant at FIU further strengthened her ability to mentor students in violin technique, piano, musical interpretation, and performance preparation.",
+        ]}
+        imageSrc="/images/portraits/gabriela_portrait.png"
+        imageAlt="Gabriela Portrait"
+        imagePosition="right"
+      />
     </main>
   </div>
 );
