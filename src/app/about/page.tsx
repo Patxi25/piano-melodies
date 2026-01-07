@@ -58,20 +58,6 @@ const AboutPage = () => (
 
       {/* Employee 2 Section */}
       <ContentSection
-        title="Meet Brenda"
-        description={[
-          "Born in Cuba, Brenda Lorenzo pursued undergraduate degrees in both piano and music theory at the National School of Music, majoring afterwards, with highest honors from the University of the Arts in Musicology. She has performed in various editions of the Contemporary Music Festival of Habana. ",
-          "Whilst working at the Cuban Institute of Music, she advocated for social support of living composers. Additionally, has shared her expertise as a lecturer at the Latin American Studies Association (LASA)Congress in 2019. ",
-          "Brenda served as faculty collaborative pianist at the National School of Music and the Conservatory Amadeo Roldan of Havana from 2018 to 2023. She was accepted into Lynn Conservatory of Music's Instrumental Collaborative Piano Program in the fall of 2023, under the tutelage of distinguished professor Lisa Leonard, where she held the Teaching Assistantship for Ear Training Studies. ",
-          "She has been awarded the Special Jury Prize for Best Orchestral Realization in the 2023 and 2024 Lynn Concerto Competition, as well as First Prize at the John Olivera String Competition on Piano Performance 2024 and first alternate position for Lynn Chamber Competition 2024. Miss Lorenzo completed her Master degree in Piano Performance in 2025. She has participated in masterclasses by professors Norman Krieger, Pamela Ryan, Julian Schwarz and Marita Rodriguez. ",
-        ]}
-        imageSrc="/images/portraits/brenda_portrait.png"
-        imageAlt="Brenda Portrait"
-        imagePosition="right"
-      />
-
-      {/* Employee 3 Section */}
-      <ContentSection
         title="Meet Maria"
         description={[
           "Maria Karla Molina Hernandez is a flutist and pianist from Camagüey, Cuba, now based in Miami. She began studying music at age 8 and has performed with youth orchestras, bands, choirs, and chamber ensembles.",
@@ -80,10 +66,10 @@ const AboutPage = () => (
         ]}
         imageSrc="/images/portraits/maria_portrait.png"
         imageAlt="Maria Portrait"
-        imagePosition="left"
+        imagePosition="right"
       />
 
-      {/* Employee 4 Section */}
+      {/* Employee 3 Section */}
       <ContentSection
         title="Meet Gabriela"
         description={[
@@ -92,6 +78,19 @@ const AboutPage = () => (
         ]}
         imageSrc="/images/portraits/gabriela_portrait.png"
         imageAlt="Gabriela Portrait"
+        imagePosition="left"
+      />
+
+      {/* Employee 4 Section */}
+      <ContentSection
+        title="Meet Leidy"
+        description={[
+          "Leidy Laura is a passionate and dedicated music educator and performer with over eight years of experience teaching students of all ages and skill levels. She holds a Bachelor’s degree in Music Performance from the University of Art in Havana, as well as a Master’s degree in Musical Education and Musical Performance from the Conservatory of Liceu in Barcelona.",
+          "Her goal is to inspire a lifelong love of music while fostering creativity, discipline, and confidence in her students. Skilled in teaching violin, viola, cello, piano, music theory, and ensemble performance, Leidy adapts her teaching methods to meet the unique needs of each student.",
+          "With a background in both classical music and contemporary styles, she strives to make learning music engaging and accessible. Leidy is committed to creating an inclusive and supportive learning environment where students can thrive artistically and personally. Whether preparing students for performances, exams, or simply cultivating their musical interests, she brings enthusiasm, expertise, and a deep love for music to every lesson.",
+        ]}
+        imageSrc="/images/portraits/leidy_portrait.png"
+        imageAlt="Leidy Portrait"
         imagePosition="right"
       />
     </main>
