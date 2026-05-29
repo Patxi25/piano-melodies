@@ -8,9 +8,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 Make sure you have the following versions installed:
 
-- Node.js: `>= v24.13.1`
-- npm: `>= v11.6.2`
-- Next.js: `16.0.10`
+- Node.js: `>= v24.16.0`
+- npm: `>= v11.15.0`
+- Next.js: `16.2.6`
 
 ## Installation
 
@@ -24,7 +24,7 @@ Make sure you have the following versions installed:
 2. Use the correct Node.js version:
 
    ```bash
-   nvm use 24.13.1
+   nvm use 24.16.0
    ```
 
 3. Install the dependencies:
