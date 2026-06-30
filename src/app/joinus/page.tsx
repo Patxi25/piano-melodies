@@ -6,8 +6,9 @@ import ContentSection from "../components/content-section";
 
 const JoinUsPage: React.FC = () => (
   <div className={styles.joinUsPage}>
-    <div className={styles.header}>
+    <div className={styles.pageBanner}>
       <h1>Join Piano Melodies Studio</h1>
+      <p>Help children discover the joy of music.</p>
     </div>
 
     <main className={styles.mainContent}>
@@ -22,21 +23,24 @@ const JoinUsPage: React.FC = () => (
             <h3>Why Join Us?</h3>
             <ul>
               <li>
-                Make a Positive Impact: Inspire children through music and help
-                them build confidence, creativity, and life skills.
+                <strong>Make a Positive Impact:</strong> Inspire children
+                through music and help them build confidence, creativity, and
+                life skills.
               </li>
               <li>
-                Collaborative & Supportive Team: Work alongside a team that
-                values encouragement, innovation, and shared success.
+                <strong>Collaborative & Supportive Team:</strong> Work alongside
+                a team that values encouragement, innovation, and shared
+                success.
               </li>
               <li>
-                Professional Growth & Development: Opportunities to enhance your
-                teaching skills and explore adaptive and music therapy-based
-                methods.
+                <strong>Professional Growth & Development:</strong>{" "}
+                Opportunities to enhance your teaching skills and explore
+                adaptive and music therapy-based methods.
               </li>
               <li>
-                Flexible Working Hours: Enjoy a schedule that fits your
-                lifestyle while making a difference in students’ lives.
+                <strong>Flexible Working Hours:</strong>
+                Enjoy a schedule that fits your lifestyle while making a
+                difference in students' lives.
               </li>
             </ul>
           </div>,
@@ -56,7 +60,7 @@ const JoinUsPage: React.FC = () => (
           </div>,
         ]}
         imageSrc="/images/teaching/nicole_teaching_2.png"
-        imageAlt="Begoña with Student"
+        imageAlt="Nicole teaching piano"
         imagePosition="right"
       />
 
@@ -66,15 +70,11 @@ const JoinUsPage: React.FC = () => (
           "My time at Piano Melodies has been a fulfilling and amazing experience. The environment is supportive, and one feels valued as a teacher. The focus and values of the company are what makes each students’ experience a great one. One of the best aspects of working here is the fast, and easy communication with the team. I am thankful to be a part of a team in which students can learn to express themselves through music.",
         ]}
         imageSrc="/images/teaching/nicole_teaching_3.png"
-        imageAlt="Begoña Teaching Piano"
+        imageAlt="Nicole Teaching Piano"
         imagePosition="left"
       />
 
-      {/* Benefits Section */}
-      <div className={styles.sectionContainer}></div>
-
-      {/* FAQ Section */}
-      <div className={styles.sectionContainer}>
+      <div className={styles.faqSection}>
         <h2>Frequently Asked Questions</h2>
         <details>
           <summary>What qualifications do I need to join the team?</summary>
@@ -88,7 +88,7 @@ const JoinUsPage: React.FC = () => (
         <details>
           <summary>What is the application process?</summary>
           <p>
-            Fill out the form below, and we will get back to you with the next
+            Fill out the form aboveß, and we will get back to you with the next
             steps.
           </p>
         </details>

@@ -7,8 +7,9 @@ import ContentSection from "../components/content-section";
 
 const ContactPage: React.FC = () => (
   <div className={styles.contactPage}>
-    <div className={styles.header}>
+    <div className={styles.pageBanner}>
       <h1>Contact Piano Melodies Studio</h1>
+      <p>We would love to hear from you.</p>
     </div>
 
     <main className={styles.mainContent}>
@@ -27,14 +28,14 @@ const ContactPage: React.FC = () => (
           </Button>,
         ]}
         imageSrc="/images/students/student_4.png"
-        imageAlt="Student 4"
+        imageAlt="Student learning piano"
         imagePosition="right"
       />
 
       <ContentSection
         title="Interested in a Class?"
         description={[
-          "We'd love to hear from you! Feel free to reach out to us via email, phone, or the form below.",
+          "We would love to hear from you! Feel free to reach out to us via email, phone, or the form below.",
           <Button
             key="join-contact"
             variant="cta"
@@ -60,7 +61,7 @@ const ContactPage: React.FC = () => (
               </address>
             </div>
 
-            <div className={styles.socialList} key="social-list">
+            <div className={styles.socialList}>
               <a
                 className={styles.socialLink}
                 href="https://www.instagram.com/pianomelodies_studio/"
@@ -70,7 +71,6 @@ const ContactPage: React.FC = () => (
                 <FaInstagram className={styles.icon} />
                 Instagram
               </a>
-
               <a
                 className={styles.socialLink}
                 href="https://www.facebook.com/p/Piano-Melodies-61567913116105/"
@@ -80,7 +80,6 @@ const ContactPage: React.FC = () => (
                 <FaFacebook className={styles.icon} />
                 Facebook
               </a>
-
               <a
                 className={styles.socialLink}
                 href="https://www.linkedin.com/company/piano-melodies-llc/"
@@ -94,7 +93,7 @@ const ContactPage: React.FC = () => (
           </div>,
         ]}
         imageSrc="/images/teaching/begona_teaching_3.png"
-        imageAlt="Student 4"
+        imageAlt="Beona teaching piano"
         imagePosition="left"
       />
     </main>

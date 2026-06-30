@@ -1,51 +1,118 @@
 .footer {
-  background-color: #054570;
+  background-color: var(--primary);
   color: white;
-  padding: 20px 0;
-  text-align: center;
-  border-top: 2px solid #4b94c3;
-  font-family: "Playfair Display", serif;
+  border-top: 3px solid var(--accent);
+  font-family: "Inter", sans-serif;
 }
 
 .footerContent {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 48px 40px 32px;
 }
 
-.footer a {
+.footerBrand {
+  flex: 2;
+  min-width: 200px;
+}
+
+.footerTitle {
+  font-family: "Lucida Handwriting Std", cursive;
+  font-size: 1.25rem;
   color: white;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0 10px;
-  transition: color 0.3s ease-in-out;
+  margin: 0 0 6px;
+  font-weight: 700;
 }
 
-.footer a:hover {
-  color: #4b94c3;
+.footerTagLine {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.88rem;
+  margin: 0 0 20 px;
 }
 
-.footer p {
-  margin: 10px 0;
+.socialLinks {
+  display: flex;
+  gap: 16px;
+}
+
+.socialLinks a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.footerNav,
+.footerCOntect {
+  flex: 1;
+  min-width: 140 px;
+}
+
+.footerNavTitle {
+  font-family: "Inter", sans-serif;
+  font-size: 0.72 rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--accent);
+  margin: 0 0 14px;
+}
+
+.footerNavList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerNavList a {
+  color: rgba(255, 255, 255, 0.72);
   font-size: 0.9rem;
+  margin: 0 0 10px;
 }
 
-/* Responsive Styles */
+.footerNavList a:hover {
+  color: white;
+}
+
+.footerContact a {
+  color: rgba(255, 255, 255, 0.72);
+  transition: color 0.2s ease;
+}
+
+.footerContact a:hover {
+  color: white;
+}
+
+.footerBottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 40px;
+}
+
+.footerBottom p {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.8rem;
+  margin: 0;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .footerContent {
-    flex-direction: column;
-    text-align: center;
+    padding: 32px 20px 24px;
+    gap: 24px;
   }
 
-  .footer p {
-    margin: 5px 0;
-    font-size: 0.9rem; /* Smaller font size for mobile */
+  .footerBrand {
+    flex: none;
+    width: 100%;
   }
 
-  .footer a {
-    margin: 0 5px; /* Reduce spacing for smaller screens */
+  .footerBottom {
+    padding: 14px 20px;
   }
 }

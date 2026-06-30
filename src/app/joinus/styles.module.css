@@ -1,62 +1,112 @@
 .joinUsPage {
+  /* banner handles top spcaing */
+}
+
+.pageBanner {
+  background-color: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 64px 24px 52px;
+}
+
+.pageBanner h1 {
   font-family: "Playfair Display", serif;
-  color: black;
-  padding: 40px 20px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: white;
+  margin: 0 0 12px;
+}
+
+.pageBanner p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0;
+}
+
+.mainContent {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: white;
-}
-
-.header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.header h1 {
-  color: black;
-  font-size: 2.5rem;
-}
-
-.header p {
-  font-size: 1.2rem;
-  color: #333;
+  padding: 0 40px;
 }
 
 .sectionContainer {
-  margin-bottom: 40px;
-  text-align: left;
+  margin: 24px 0 8px;
 }
 
-.sectionContainer h2 {
-  color: #4b94c3;
+.faqSection {
+  padding: 64px 0 72px;
+}
+
+.faqSection h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.9rem;
+  color: var(--foreground);
+  margin-bottom: 32px;
+}
+
+.faqSection h2::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3 px;
+  background: var(--accent);
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.faqSection details {
+  border-top: 1px solid #e8e2d8;
+  padding: 20px 0;
+}
+
+.faqSection details:last-child {
+  border-bottom: 1px solid #e8e2d8;
+}
+
+.faqSection summary {
+  font-family: "Inter", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--foreground);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 4px;
+}
+
+.faqSection summary::-webkit-details-marker {
+  display: none;
+}
+
+.faqSection summary::after {
+  content: "+";
   font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--accent);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
 }
 
-.sectionContainer a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.3rem;
+.faqSection details[open] summary::after {
+  transform: rotate(45deg);
 }
 
-.sectionContainer summary {
-  font-size: 1.2rem;
-}
-
-.sectionContainer li {
-  font-size: 1.1rem;
-}
-
-.sectionContainer p {
-  font-size: 1.1rem;
-}
-
-.sectionContainer a:hover {
-  text-decoration: underline;
+.faqSection details p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--foreground-muted);
+  margin: 14px 0 4px;
 }
 
 @media (max-width: 600px) {
-  .contactDetails {
-    flex-direction: column;
-    align-items: center;
+  .mainContent {
+    padding: 0 20px;
+  }
+
+  .pageBanner {
+    padding: 48px 20px 40px;
   }
 }

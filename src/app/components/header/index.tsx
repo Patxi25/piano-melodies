@@ -3,12 +3,19 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation"; // Import usePathname
+import { usePathname } from "next/navigation";
 import styles from "./styles.module.css";
+
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About Us" },
+  { href: "/contact", label: "Contact" },
+  { href: "/joinus", label: "Join Us" },
+];
 
 export const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const navRef = useRef<HTMLDivElement>(null); // Ref for the navigation menu
+  const navRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
 
   const toggleMenu = () => {
@@ -18,56 +25,45 @@ export const Header: React.FC = () => {
   // Close the menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        navRef.current &&
-        !navRef.current.contains(event.target as Node) // Check if the click is outside the nav
-      ) {
-        setMenuOpen(false); // Close the menu
+      if (navRef.current && !navRef.current.contains(event.target as Node)) {
+        setMenuOpen(false);
       }
     };
-
     document.addEventListener("mousedown", handleClickOutside);
-
-    // Cleanup the event listener on unmount
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
-  // Close the menu when the screen resizes
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768) {
-        setMenuOpen(false); // Close the menu on larger screens
+        setMenuOpen(false);
       }
     };
-
     window.addEventListener("resize", handleResize);
-
-    // Cleanup event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-  // Close the menu when the pathname changes
   useEffect(() => {
-    setMenuOpen(false); // Close the menu on route change (pathname change)
+    setMenuOpen(false);
   }, [pathname]);
 
   return (
     <header className={styles.header}>
-      <div className={styles.logoTitleContainer}>
+      <Link href="/" className={styles.logoTitleContainer}>
         <div className={styles.logoContainer}>
           <Image
             src="/images/logos/logo_cropped.jpg"
             alt="Piano Melodies Logo"
-            width={80}
-            height={80}
+            width={48}
+            height={48}
           />
         </div>
         <h1 className={styles.title}>Piano Melodies Studio</h1>
-      </div>
+      </Link>
       <button
         className={styles.hamburger}
         onClick={toggleMenu}
@@ -82,17 +78,27 @@ export const Header: React.FC = () => {
         className={`${styles.nav} ${menuOpen ? styles.navOpen : ""}`}
       >
         <ul className={styles.navList}>
+          {navLinks.map(({ href, label }) => (
+            <li key={href} className={styles.navItem}>
+              <Link
+                href={href}
+                className={
+                  pathname == href ? styles.navLinkActive : styles.navLink
+                }
+              >
+                {label}
+              </Link>
+            </li>
+          ))}
           <li className={styles.navItem}>
-            <Link href="/">Home</Link>
-          </li>
-          <li className={styles.navItem}>
-            <Link href="/about">About Us</Link>
-          </li>
-          <li className={styles.navItem}>
-            <Link href="/contact">Contact</Link>
-          </li>
-          <li className={styles.navItem}>
-            <Link href="/joinus">Join Us</Link>
+            <a
+              href="https://forms.gle/R1aSvUebtKH8XTbn9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.bookNowBtn}
+            >
+              Book Now
+            </a>
           </li>
         </ul>
       </nav>

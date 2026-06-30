@@ -3,11 +3,12 @@ import ContentSection from "../components/content-section";
 
 const AboutPage = () => (
   <div className={styles.aboutPage}>
-    <div className={styles.header}>
+    <div className={styles.pageBanner}>
       <h1>About Piano Melodies Studio</h1>
+      <p>Our story, mission, and the teachers who make it happen.</p>
     </div>
+
     <main className={styles.content}>
-      {/* Studio Section */}
       <ContentSection
         title="Who We Are"
         description={[
@@ -19,18 +20,18 @@ const AboutPage = () => (
         imagePosition="right"
       />
 
-      {/* Mission Statement Section */}
-      <ContentSection
-        title="Our Mission"
-        description={[
-          "At Piano Melodies, our mission is to make piano lessons fun, engaging, and enriching for every child, celebrating individuality, inspiring confidence, and nurturing a lifelong love of music. We envision a community where all children, regardless of challenge or ability, have the opportunity to grow, thrive, and discover the joy and connection that music brings.",
-        ]}
-        imageSrc="/images/teaching/begona_teaching_8.png"
-        imageAlt="Begoña Teaching Piano"
-        imagePosition="left"
-      />
+      <div className={styles.accentBand}>
+        <ContentSection
+          title="Our Mission"
+          description={[
+            "At Piano Melodies, our mission is to make piano lessons fun, engaging, and enriching for every child, celebrating individuality, inspiring confidence, and nurturing a lifelong love of music. We envision a community where all children, regardless of challenge or ability, have the opportunity to grow, thrive, and discover the joy and connection that music brings.",
+          ]}
+          imageSrc="/images/teaching/begona_teaching_8.png"
+          imageAlt="Begoña Teaching Piano"
+          imagePosition="left"
+        />
+      </div>
 
-      {/* Founder Section */}
       <ContentSection
         title="Meet the Founder"
         description={[
@@ -44,17 +45,19 @@ const AboutPage = () => (
       />
 
       {/* Employee 1 Section */}
-      <ContentSection
-        title="Meet Nicole"
-        description={[
-          "Nicole Hidalgo began studying piano at the age of six at Texas Christian University School of Music. She later joined the Frost Preparatory Program, where she trained for 10 years. In her final year there, she volunteered as a Group Piano Teacher Assistant, gaining valuable experience working with young students.",
-          "Nicole has since taught private piano lessons to children across Miami and continues to work with the Frost Preparatory Program. She currently assists and leads in the Suzuki for Tots Program and also teaches individual piano lessons.",
-          "Alongside her love for music and teaching, Nicole is pursuing a degree in Nutritional Science and plans to continue her studies in Nursing.",
-        ]}
-        imageSrc="/images/portraits/nicole_portrait.jpeg"
-        imageAlt="Nicole Portrait"
-        imagePosition="left"
-      />
+      <div className={styles.accentBand}>
+        <ContentSection
+          title="Meet Nicole"
+          description={[
+            "Nicole Hidalgo began studying piano at the age of six at Texas Christian University School of Music. She later joined the Frost Preparatory Program, where she trained for 10 years. In her final year there, she volunteered as a Group Piano Teacher Assistant, gaining valuable experience working with young students.",
+            "Nicole has since taught private piano lessons to children across Miami and continues to work with the Frost Preparatory Program. She currently assists and leads in the Suzuki for Tots Program and also teaches individual piano lessons.",
+            "Alongside her love for music and teaching, Nicole is pursuing a degree in Nutritional Science and plans to continue her studies in Nursing.",
+          ]}
+          imageSrc="/images/portraits/nicole_portrait.jpeg"
+          imageAlt="Nicole Portrait"
+          imagePosition="left"
+        />
+      </div>
 
       {/* Employee 2 Section */}
       <ContentSection
@@ -70,16 +73,18 @@ const AboutPage = () => (
       />
 
       {/* Employee 3 Section */}
-      <ContentSection
-        title="Meet Gabriela"
-        description={[
-          "Gabriela Timofte is a professional violinist, pianist, and educator. With extensive experience performing internationally as a soloist, chamber musician, and orchestral violinist, she has had the privilege of collaborating with renowned conductors and esteemed ensembles. In addition to her performance career, she is deeply passionate about music education and has over 8 years of experience. She has taught students ranging from young beginners to graduate-level musicians, providing both private instruction and ensemble coaching.",
-          "Gabriela has also worked with students on the spectrum, thoughtfully adapting her teaching approach to support a wide range of learning styles and needs. She is committed to fostering an inclusive and encouraging environment where every student can thrive. Her experience as a Graduate Assistant at FIU further strengthened her ability to mentor students in violin technique, piano, musical interpretation, and performance preparation.",
-        ]}
-        imageSrc="/images/portraits/gabriela_portrait.png"
-        imageAlt="Gabriela Portrait"
-        imagePosition="left"
-      />
+      <div className={styles.accentBand}>
+        <ContentSection
+          title="Meet Gabriela"
+          description={[
+            "Gabriela Timofte is a professional violinist, pianist, and educator. With extensive experience performing internationally as a soloist, chamber musician, and orchestral violinist, she has had the privilege of collaborating with renowned conductors and esteemed ensembles. In addition to her performance career, she is deeply passionate about music education and has over 8 years of experience. She has taught students ranging from young beginners to graduate-level musicians, providing both private instruction and ensemble coaching.",
+            "Gabriela has also worked with students on the spectrum, thoughtfully adapting her teaching approach to support a wide range of learning styles and needs. She is committed to fostering an inclusive and encouraging environment where every student can thrive. Her experience as a Graduate Assistant at FIU further strengthened her ability to mentor students in violin technique, piano, musical interpretation, and performance preparation.",
+          ]}
+          imageSrc="/images/portraits/gabriela_portrait.png"
+          imageAlt="Gabriela Portrait"
+          imagePosition="left"
+        />
+      </div>
 
       {/* Employee 4 Section */}
       <ContentSection
