@@ -98,7 +98,7 @@ const HomePage = () => (
             reviewerName="Adreienne"
           />
           <Review
-            imageSrc="/images/students/nicole_teaching.png"
+            imageSrc="/images/teaching/nicole_teaching.png"
             imageAlt="Ms. Nicole"
             reviewText="My time at Piano Melodies has been a fulfilling and amazing experience. The environment is supportive, and one feels valued as a teacher. The focus and values of the company are what makes each students’ experience a great one. One of the best aspects of working here is the fast, and easy communication with the team. I am thankful to be a part of a team in which students can learn to express themselves through music."
             reviewerName="Ms. Nicole"
