@@ -59,9 +59,17 @@ const JoinUsPage: React.FC = () => (
             </div>
           </div>,
         ]}
-        imageSrc="/images/teaching/nicole_teaching_2.png"
+        imageSrc="/images/recitals/teachers_group_picture.jpg"
         imageAlt="Nicole teaching piano"
         imagePosition="right"
+      />
+
+      <ContentSection
+        title="Employee Testimonial"
+        description={["FILL ME OUT PLEASE"]}
+        imageSrc="/images/recitals/student_teacher_4.jpg"
+        imageAlt="Teacher Teaching Piano"
+        imagePosition="left"
       />
 
       <ContentSection
@@ -71,7 +79,7 @@ const JoinUsPage: React.FC = () => (
         ]}
         imageSrc="/images/teaching/nicole_teaching_3.png"
         imageAlt="Nicole Teaching Piano"
-        imagePosition="left"
+        imagePosition="right"
       />
 
       <div className={styles.faqSection}>
