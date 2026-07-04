@@ -32,46 +32,59 @@ const HomePage = () => (
       </div>
     </section>
 
-    {/* Section 1: Our Lessons */}
-    <div className={styles.sectionsContainer}>
+    {/* Section 0: Piano Melodies */}
+    <div className={styles.sectionContainer}>
       <ContentSection
-        title="Our Lessons"
+        title="Piano Melodies Studio"
         description={[
-          "Our lessons are more than piano practice. Through music, we nurture confidence, focus, creativity, and self-expression, skills that children carry with them long after the lesson ends.",
-          "With our adaptive approach and strong foundation in music therapy principles, we design lessons that are playful, flexible, and meaningful. Children on the autism spectrum, those with ADHD, speech delays, other developmental or learning differences, and neurotypical students all thrive in an environment built on encouragement, patience, and joy.",
+          "At Piano Melodies, we believe every child deserves the chance to experience the joy of music. Our mission is to make piano lessons fun, engaging, and enriching for all children, regardless of a diagnosis, challenge, or ability. We proudly serve the Miami community, offering personalized, in-home piano lessons in both English and Spanish. Whether your child is a complete beginner, already exploring their musical talents, or learning in unique ways, we meet them where they are and help them shine at their own pace.",
         ]}
-        imageSrc="/images/teaching/group_picture_1.png"
+        imageSrc="/images/recitals/student_teacher_2.jpg"
         imageAlt="Piano Melodies Recital Group"
         imagePosition="left"
       />
     </div>
 
-    {/* Our Commitment - accent band */}
+    {/* Section 1: Our Lessons */}
     <div className={styles.commitmentBand}>
       <div className={styles.sectionContainer}>
         <ContentSection
-          title="Our Commitment"
+          title="Our Lessons"
           description={[
-            <p className={styles.bodyText}>
-              We are committed to keeping music education within reach for every
-              family. That is why Piano Melodies proudly accepts{" "}
-              <a
-                href="https://www.stepupforstudents.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.inlineLink}
-              >
-                Step up for Students
-              </a>{" "}
-              scholarships, opening the door for more children to fall in love
-              with music.
-            </p>,
+            "Our lessons are more than piano practice. Through music, we nurture confidence, focus, creativity, and self-expression, skills that children carry with them long after the lesson ends.",
+            "With our adaptive approach and strong foundation in music therapy principles, we design lessons that are playful, flexible, and meaningful. Children on the autism spectrum, those with ADHD, speech delays, other developmental or learning differences, and neurotypical students all thrive in an environment built on encouragement, patience, and joy.",
           ]}
-          imageSrc="/images/teaching/begona_teaching_7.png"
-          imageAlt="Begona teaching piano"
+          imageSrc="/images/teaching/teaching.png"
+          imageAlt="Piano Melodies Recital Group"
           imagePosition="right"
         />
       </div>
+    </div>
+
+    {/* Our Commitment */}
+    <div className={styles.sectionContainer}>
+      <ContentSection
+        title="Our Commitment"
+        description={[
+          <p className={styles.bodyText}>
+            We are committed to keeping music education within reach for every
+            family. That is why Piano Melodies proudly accepts{" "}
+            <a
+              href="https://www.stepupforstudents.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.inlineLink}
+            >
+              Step up for Students
+            </a>{" "}
+            scholarships, opening the door for more children to fall in love
+            with music.
+          </p>,
+        ]}
+        imageSrc="/images/teaching/begona_teaching_7.png"
+        imageAlt="Begona teaching piano"
+        imagePosition="left"
+      />
     </div>
 
     {/* Testimonials */}
@@ -93,9 +106,9 @@ const HomePage = () => (
           />
           <Review
             imageSrc="/images/students/student_1.png"
-            imageAlt="Parent Adreienne"
+            imageAlt="Parent Adrienne"
             reviewText="Begoña is amazing! She has been working with my son for three years, since he was three years old, and with my daughter for one year, since she was two. The kids love her, and so do I! She is patient, understanding, and truly tailors each lesson to the individual child, meeting them where they are. I have referred multiple people to her—including myself! Give her a try; you won’t be disappointed!"
-            reviewerName="Adreienne"
+            reviewerName="Adrienne"
           />
           <Review
             imageSrc="/images/teaching/nicole_teaching.png"

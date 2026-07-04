@@ -1,0 +1,79 @@
+.recitalsPage {
+  /* banner handles top spacing */
+}
+
+.pageBanner {
+  background-color: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 64px 24px 52px;
+}
+
+.pageBanner h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 0 0 12px;
+  line-height: 1.15;
+}
+
+.pageBanner p {
+  font-family: "Inter", sans-serif;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 1.05rem;
+  margin: 0 auto;
+}
+
+.mainContent {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 48px 32px 80px;
+}
+
+.gallery {
+  columns: 4 220px;
+  column-gap: 14px;
+}
+
+.photoWrapper {
+  break-inside: avoid;
+  margin-bottom: 14px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background-color: #e8e2d8;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition:
+    transform 0.35s ease,
+    filter 0.35s ease;
+}
+
+.photoWrapper:hover .photo {
+  transform: scale(1.04);
+  filter: brightness(1.06);
+}
+
+@media (max-width: 900px) {
+  .gallery {
+    columns: 3 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    columns: 2 140px;
+  }
+
+  .mainContent {
+    padding: 32px 16px 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .gallery {
+    columns: 1;
+  }
+}

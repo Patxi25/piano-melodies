@@ -15,8 +15,8 @@ const AboutPage = () => (
           "Piano Melodies is a piano studio dedicated to working with both neurotypical and neurodivergent children and young adults, starting as young as 3 years old.",
           "We believe music should be an adventure that every child can enjoy, no matter their learning style, ability, or challenge. That’s why our lessons are flexible, personalized, and playful, designed to meet each student where they are.",
         ]}
-        imageSrc="/images/teaching/begona_teaching_6.png"
-        imageAlt="Begoña Teaching Piano"
+        imageSrc="/images/teaching/teachers_group.png"
+        imageAlt="Begoña and Fellow Teachers"
         imagePosition="right"
       />
 
