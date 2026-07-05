@@ -5,7 +5,7 @@
 .hero {
   position: relative;
   min-height: 88vh;
-  background-image: url("/images/teaching/group_picture.jpeg");
+  background-image: url("/images/recitals/teachers_group.png");
   background-size: cover;
   background-position: center top;
   display: flex;

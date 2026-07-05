@@ -15,10 +15,10 @@ const JoinUsPage: React.FC = () => (
       <ContentSection
         title="About Our Team"
         description={[
-          "At Piano Melodies, our teachers share a passion for helping children grow through music. More than just instructors, they are mentors who bring patience, creativity, and joy into every lesson.",
-          "Our team believes that learning music should be fun, supportive, and meaningful. Lessons go beyond teaching notes and rhythms, they help children build confidence, focus, and life skills that extend into their daily lives.",
-          "We proudly work with both neurotypical and neurodiverse students, including children with autism, ADHD, speech delays, and other developmental or learning differences. Using an adaptive teaching approach rooted in music therapy principles, our teachers make lessons flexible, engaging, and tailored to each child’s unique strengths.",
-          "Every member of our team is committed to creating an environment where students feel encouraged, celebrated, and inspired to fall in love with music.",
+          "At Piano Melodies, our teachers share a passion for helping children grow through music. More than instructors, they are mentors who bring patience, creativity, and joy into every lesson.",
+          "Our team believes that learning music should be fun, supportive, and meaningful. Lessons go beyond teaching notes and rhythm—they help children build confidence, focus, and life skills that extend far beyond the piano.",
+          "We proudly work with both neurotypical and neurodiverse students, including children with autism, ADHD, speech delays, and other developmental or learning differences. Using an adaptive, child-centered teaching approach informed by therapeutic principles, our teachers create lessons that are flexible, engaging, and tailored to each student’s unique strengths.",
+          "Every member of our team is committed to creating an environment where students feel encouraged, celebrated, and inspired to fall in love with music",
           <div key="why-join-us">
             <h3>Why Join Us?</h3>
             <ul>
@@ -67,7 +67,7 @@ const JoinUsPage: React.FC = () => (
       <ContentSection
         title="Employee Testimonial"
         description={["FILL ME OUT PLEASE"]}
-        imageSrc="/images/recitals/student_teacher_4.jpg"
+        imageSrc="/images/recitals/student_teacher_8.png"
         imageAlt="Teacher Teaching Piano"
         imagePosition="left"
       />
@@ -77,7 +77,7 @@ const JoinUsPage: React.FC = () => (
         description={[
           "My time at Piano Melodies has been a fulfilling and amazing experience. The environment is supportive, and one feels valued as a teacher. The focus and values of the company are what makes each students’ experience a great one. One of the best aspects of working here is the fast, and easy communication with the team. I am thankful to be a part of a team in which students can learn to express themselves through music.",
         ]}
-        imageSrc="/images/teaching/nicole_teaching_3.png"
+        imageSrc="/images/recitals/student_teacher_9.png"
         imageAlt="Nicole Teaching Piano"
         imagePosition="right"
       />
@@ -87,10 +87,15 @@ const JoinUsPage: React.FC = () => (
         <details>
           <summary>What qualifications do I need to join the team?</summary>
           <p>
-            We are looking for individuals with a passion for teaching music to
-            children of all ages and abilities. Music Therapy Board
-            Certification (MT-BC) is preferred, and previous experience in music
-            education is a plus.
+            We are looking for passionate musicians who love teaching and
+            working with children of all ages and abilities. Applicants should
+            hold (or be currently pursuing) a Bachelor’s or Master’s degree in
+            Music, Music Education, Piano Performance, or a related field.
+          </p>
+          <p>
+            Previous experience in music education is highly valued. Music
+            Therapy Board Certification (MT-BC) or a background in adaptive or
+            special needs instruction is a plus, but not required.
           </p>
         </details>
         <details>

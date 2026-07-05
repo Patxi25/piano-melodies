@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Piano Melodies",
   description:
-    "Personalized, in-home piano lessons in Miami. Adaptive, billingual instruction rooted in music therapy -- for children of all ages and abilities.",
+    "Personalized in-home piano lessons in Miami with adaptive, bilingual instruction designed for children of all ages and abilities.",
 };
 
 type LayoutProps = {

@@ -56,7 +56,7 @@ export const Header: React.FC = () => {
       <Link href="/" className={styles.logoTitleContainer}>
         <div className={styles.logoContainer}>
           <Image
-            src="/images/logos/logo_cropped.jpg"
+            src="/images/logos/logo.jpg"
             alt="Piano Melodies Logo"
             width={48}
             height={48}

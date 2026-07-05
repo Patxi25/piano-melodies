@@ -3,30 +3,6 @@ import styles from "./styles.module.css";
 
 const photos = [
   {
-    src: "/images/recitals/student_teacher_1.jpg",
-    alt: "Student and Teacher at Recital",
-  },
-  {
-    src: "/images/recitals/student_teacher_2.jpg",
-    alt: "Student and Teacher at Recital",
-  },
-  {
-    src: "/images/recitals/student_teacher_3.jpg",
-    alt: "Student and Teacher at Recital",
-  },
-  {
-    src: "/images/recitals/student_teacher_4.jpg",
-    alt: "Student and Teacher at Recital",
-  },
-  {
-    src: "/images/recitals/student_teacher_5.jpg",
-    alt: "Student and Teacher at Recital",
-  },
-  {
-    src: "/images/recitals/group_1.jpg",
-    alt: "Group Picture at Recital",
-  },
-  {
     src: "/images/recitals/student_1.jpg",
     alt: "Student at Recital",
   },
@@ -85,6 +61,210 @@ const photos = [
   {
     src: "/images/recitals/student_15.jpg",
     alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_16.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_17.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_18.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_19.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_20.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_21.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_22.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_23.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_24.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_25.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_26.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_27.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_28.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_29.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_30.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_31.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_32.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_33.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_34.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_35.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_36.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_37.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_38.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_39.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_40.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_41.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_42.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_43.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_44.png",
+    alt: "Student at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_1.jpg",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_2.jpg",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_3.jpg",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_4.jpg",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_5.jpg",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_6.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_7.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_8.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_9.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_10.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_11.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_12.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_13.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_14.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_15.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_16.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_17.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/student_teacher_18.png",
+    alt: "Student and Teacher at Recital",
+  },
+  {
+    src: "/images/recitals/group_2.png",
+    alt: "Group Picture at Recital",
+  },
+  {
+    src: "/images/recitals/group_3.png",
+    alt: "Group Picture at Recital",
+  },
+  {
+    src: "/images/recitals/group_4.png",
+    alt: "Group Picture at Recital",
+  },
+  {
+    src: "/images/recitals/teachers_group.png",
+    alt: "Group Picture at Recital",
   },
 ];
 

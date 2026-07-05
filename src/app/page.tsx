@@ -12,9 +12,8 @@ const HomePage = () => (
       <div className={styles.heroOverlay}>
         <h1 className={styles.heroTitle}>Where Every Melody Sparks Joy</h1>
         <p className={styles.heroSubtitle}>
-          Personalized, in-home piano lessons in Miami. Adaptive, bilingual
-          instruction rooted in music therapy -- for children of all ages and
-          abilities.
+          Personalized in-home piano lessons in Miami with adaptive, bilingual
+          instruction designed for children of all ages and abilities.
         </p>
         <div className={styles.heroCtas}>
           <Button
@@ -51,8 +50,9 @@ const HomePage = () => (
         <ContentSection
           title="Our Lessons"
           description={[
-            "Our lessons are more than piano practice. Through music, we nurture confidence, focus, creativity, and self-expression, skills that children carry with them long after the lesson ends.",
-            "With our adaptive approach and strong foundation in music therapy principles, we design lessons that are playful, flexible, and meaningful. Children on the autism spectrum, those with ADHD, speech delays, other developmental or learning differences, and neurotypical students all thrive in an environment built on encouragement, patience, and joy.",
+            "Our lessons are more than piano instruction. Through music, we nurture confidence, focus, creativity, and self-expression, skills that children carry with them long after the lesson ends.",
+            "Inspired by music therapy principles and guided by an adaptive teaching approach, we create lessons that are engaging, flexible, and meaningful. Children on the autism spectrum, those with ADHD, speech delays, other developmental or learning differences, and neurotypical students all thrive in an environment built on encouragement, patience, and joy.",
+            "We are also proud providers for the Step Up For Students scholarship program, helping eligible families use their scholarship benefits toward piano lessons.",
           ]}
           imageSrc="/images/teaching/teaching.png"
           imageAlt="Piano Melodies Recital Group"
@@ -61,30 +61,33 @@ const HomePage = () => (
       </div>
     </div>
 
-    {/* Our Commitment */}
+    {/* Section 2: Performance Opportunities */}
     <div className={styles.sectionContainer}>
       <ContentSection
-        title="Our Commitment"
+        title="Performance Opportunities"
         description={[
-          <p className={styles.bodyText}>
-            We are committed to keeping music education within reach for every
-            family. That is why Piano Melodies proudly accepts{" "}
-            <a
-              href="https://www.stepupforstudents.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.inlineLink}
-            >
-              Step up for Students
-            </a>{" "}
-            scholarships, opening the door for more children to fall in love
-            with music.
-          </p>,
+          "Each year, our students have the opportunity to perform in our annual recital, celebrating their hard work and musical growth in front of family and friends. Students may also choose to participate in adjudicated piano events, where they receive valuable feedback from experienced piano educators. These experiences help build confidence, strengthen performance skills, and inspire a lifelong love of music.",
         ]}
-        imageSrc="/images/teaching/begona_teaching_7.png"
-        imageAlt="Begona teaching piano"
-        imagePosition="left"
+        imageSrc="/images/recitals/student_3.jpg"
+        imageAlt="Piano Melodies Performance Opportunities"
+        imagePosition="right"
       />
+    </div>
+
+    {/* Section 3: Our Commitment */}
+    <div className={styles.commitmentBand}>
+      <div className={styles.sectionContainer}>
+        <ContentSection
+          title="Our Commitment"
+          description={[
+            "We are dedicated to meeting each child where they are, adapting our teaching to their individual learning style, and fostering steady progress in a positive and encouraging environment. Our teachers are reliable, prepared, and passionate about helping students build both musical skills and confidence.",
+            "We also value clear communication and consistency, working closely with families to ensure each student feels supported, understood, and motivated throughout their musical journey",
+          ]}
+          imageSrc="/images/recitals/student_teacher_7.png"
+          imageAlt="Begona teaching piano"
+          imagePosition="left"
+        />
+      </div>
     </div>
 
     {/* Testimonials */}
@@ -93,28 +96,28 @@ const HomePage = () => (
         <h2 className={styles.sectionHeading}>What Families are Saying</h2>
         <div className={styles.reviewsGrid}>
           <Review
-            imageSrc="/images/students/student_7.png"
+            imageSrc="/images/recitals/student_teacher_3.jpg"
             imageAlt="Student 7"
             reviewText="Miss Begoña is truly an exceptional piano teacher! Her professionalism, and deep passion for music shine through in every lesson. She has a wonderful way with kids, making learning both fun and engaging while fostering a love for music. Her patience and encouragement create a supportive environment where student feel confidetn and excited to progress."
             reviewerName="Rashelle"
           />
           <Review
-            imageSrc="/images/students/student_5.png"
+            imageSrc="/images/recitals/student_teacher_6.png"
             imageAlt="Student 5"
             reviewText="For two and a half years, Ms. Begoña has been teaching my boys piano, and they are thriving under her guidance! She is supportive, knowledgeable, and makes learning enjoyable for them. She strikes the perfect balance between kindness and discipline. We absolutely adore her!"
             reviewerName="Erika"
           />
           <Review
-            imageSrc="/images/students/student_1.png"
+            imageSrc="/images/recitals/student_teacher_1.jpg"
             imageAlt="Parent Adrienne"
             reviewText="Begoña is amazing! She has been working with my son for three years, since he was three years old, and with my daughter for one year, since she was two. The kids love her, and so do I! She is patient, understanding, and truly tailors each lesson to the individual child, meeting them where they are. I have referred multiple people to her—including myself! Give her a try; you won’t be disappointed!"
             reviewerName="Adrienne"
           />
           <Review
-            imageSrc="/images/teaching/nicole_teaching.png"
-            imageAlt="Ms. Nicole"
-            reviewText="My time at Piano Melodies has been a fulfilling and amazing experience. The environment is supportive, and one feels valued as a teacher. The focus and values of the company are what makes each students’ experience a great one. One of the best aspects of working here is the fast, and easy communication with the team. I am thankful to be a part of a team in which students can learn to express themselves through music."
-            reviewerName="Ms. Nicole"
+            imageSrc="/images/teaching/maria_teaching.png"
+            imageAlt="FILL ME OUT PLEASE"
+            reviewText="FILL ME OUT PLEASE"
+            reviewerName="Maria"
           />
         </div>
       </div>

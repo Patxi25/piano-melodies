@@ -12,8 +12,8 @@ const AboutPage = () => (
       <ContentSection
         title="Who We Are"
         description={[
-          "Piano Melodies is a piano studio dedicated to working with both neurotypical and neurodivergent children and young adults, starting as young as 3 years old.",
-          "We believe music should be an adventure that every child can enjoy, no matter their learning style, ability, or challenge. That’s why our lessons are flexible, personalized, and playful, designed to meet each student where they are.",
+          "Piano Melodies Studio is a team of passionate, classically trained piano teachers dedicated to inspiring a lifelong love of music. We believe every child deserves the opportunity to experience the joy of music. We specialize in working with both neurotypical and neurodivergent children and young adults, welcoming students as young as 3 years old.",
+          "We believe music should be an adventure that every child can enjoy, regardless of their learning style, ability, or challenges. Our lessons are personalized, engaging, and playful, combining strong musical foundations with a supportive approach that helps every student build confidence, creativity, and a genuine love for the piano.",
         ]}
         imageSrc="/images/teaching/teachers_group.png"
         imageAlt="Begoña and Fellow Teachers"
@@ -24,9 +24,10 @@ const AboutPage = () => (
         <ContentSection
           title="Our Mission"
           description={[
-            "At Piano Melodies, our mission is to make piano lessons fun, engaging, and enriching for every child, celebrating individuality, inspiring confidence, and nurturing a lifelong love of music. We envision a community where all children, regardless of challenge or ability, have the opportunity to grow, thrive, and discover the joy and connection that music brings.",
+            "At Piano Melodies, our mission is to make piano lessons fun, engaging, and enriching for every child by celebrating individuality, inspiring confidence, and nurturing a lifelong love of music. Through personalized, high-quality instruction, we empower each student to develop their musical abilities, express themselves creatively, and reach their full potential.",
+            "We envision a community where all children, regardless of their abilities or challenges, have the opportunity to grow, thrive, and experience the joy, confidence, and connection that music brings.",
           ]}
-          imageSrc="/images/teaching/begona_teaching_8.png"
+          imageSrc="/images/recitals/student_teacher_10.png"
           imageAlt="Begoña Teaching Piano"
           imagePosition="left"
         />
@@ -39,7 +40,7 @@ const AboutPage = () => (
           "Since her time at the University of Miami, Begoña has been teaching piano throughout the community and, in January 2024, established Piano Melodies LLC. With over five years of teaching experience, she has worked with students across a wide range of abilities, including those on the autism spectrum, students with ADHD, speech delays, anxiety, and neurotypical learners.",
           "Drawing on her background in music therapy, Begoña uses a therapeutic and individualized approach to teaching. She is dedicated to creating accessible and meaningful music opportunities for children with high support needs, carefully adapting her methods to match each student’s strengths, challenges, and learning style. By integrating therapeutic strategies with piano instruction, she ensures that every child can experience not only musical growth, but also confidence, joy, and connection through music.",
         ]}
-        imageSrc="/images/portraits/begona_portrait_4.png"
+        imageSrc="/images/portraits/begona_portrait.png"
         imageAlt="Begoña Portrait"
         imagePosition="right"
       />
