@@ -15,7 +15,7 @@ const AboutPage = () => (
           "Piano Melodies Studio is a team of passionate, classically trained piano teachers dedicated to inspiring a lifelong love of music. We believe every child deserves the opportunity to experience the joy of music. We specialize in working with both neurotypical and neurodivergent children and young adults, welcoming students as young as 3 years old.",
           "We believe music should be an adventure that every child can enjoy, regardless of their learning style, ability, or challenges. Our lessons are personalized, engaging, and playful, combining strong musical foundations with a supportive approach that helps every student build confidence, creativity, and a genuine love for the piano.",
         ]}
-        imageSrc="/images/teaching/teachers_group.png"
+        imageSrc="/images/recitals/teachers_group.png"
         imageAlt="Begoña and Fellow Teachers"
         imagePosition="right"
       />
