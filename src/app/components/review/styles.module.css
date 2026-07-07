@@ -49,6 +49,20 @@
   flex-shrink: 0;
 }
 
+@media (max-width: 768px) {
+  .reviewImage {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviewImage {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 .reviewerName {
   font-family: "Playfair Display", serif;
   font-size: 1rem;

@@ -98,7 +98,7 @@ const HomePage = () => (
           <Review
             imageSrc="/images/recitals/student_teacher_3.jpg"
             imageAlt="Student 7"
-            reviewText="Miss Begoña is truly an exceptional piano teacher! Her professionalism, and deep passion for music shine through in every lesson. She has a wonderful way with kids, making learning both fun and engaging while fostering a love for music. Her patience and encouragement create a supportive environment where student feel confidetn and excited to progress."
+            reviewText="Miss Begoña is truly an exceptional piano teacher! Her professionalism, and deep passion for music shine through in every lesson. She has a wonderful way with kids, making learning both fun and engaging while fostering a love for music. Her patience and encouragement create a supportive environment where student feel confident and excited to progress."
             reviewerName="Rashelle"
           />
           <Review

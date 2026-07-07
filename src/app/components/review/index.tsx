@@ -24,8 +24,8 @@ const Review: React.FC<ReviewProps> = ({
       <Image
         src={imageSrc}
         alt={imageAlt}
-        width={250}
-        height={250}
+        width={300}
+        height={300}
         className={styles.reviewImage}
       />
       <span className={styles.reviewerName}>{reviewerName}</span>

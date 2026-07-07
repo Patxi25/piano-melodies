@@ -59,8 +59,8 @@ const JoinUsPage: React.FC = () => (
             </div>
           </div>,
         ]}
-        imageSrc="/images/recitals/teachers_group_picture.jpg"
-        imageAlt="Nicole teaching piano"
+        imageSrc="/images/recitals/teachers_group.png"
+        imageAlt="Group Picture of Piano Melodies Teachers"
         imagePosition="right"
       />
 
