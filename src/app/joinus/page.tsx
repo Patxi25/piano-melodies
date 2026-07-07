@@ -66,16 +66,20 @@ const JoinUsPage: React.FC = () => (
 
       <ContentSection
         title="Employee Testimonial"
-        description={["FILL ME OUT PLEASE"]}
-        imageSrc="/images/recitals/student_teacher_8.png"
-        imageAlt="Teacher Teaching Piano"
+        description={[
+          '"I really enjoy teaching at Piano Melodies. The work environment is so welcoming, and all of the teachers, students, and their families are very sweet and make the studio feel like a great community. One of my favorite parts of teaching here is getting to watch my students grow—not just as musicians, but as kind and wonderful people."',
+          " - Maria Karla Molina Hernandez, Piano Melodies Teacher",
+        ]}
+        imageSrc="/images/teaching/maria_teaching_2.png"
+        imageAlt="Maria Teaching Piano"
         imagePosition="left"
       />
 
       <ContentSection
         title="Employee Testimonial"
         description={[
-          "My time at Piano Melodies has been a fulfilling and amazing experience. The environment is supportive, and one feels valued as a teacher. The focus and values of the company are what makes each students’ experience a great one. One of the best aspects of working here is the fast, and easy communication with the team. I am thankful to be a part of a team in which students can learn to express themselves through music.",
+          '"My time at Piano Melodies has been a fulfilling and amazing experience. The environment is supportive, and one feels valued as a teacher. The focus and values of the company are what makes each students’ experience a great one. One of the best aspects of working here is the fast, and easy communication with the team. I am thankful to be a part of a team in which students can learn to express themselves through music."',
+          " - Nicole Hidalgo, Piano Melodies Teacher",
         ]}
         imageSrc="/images/recitals/student_teacher_9.png"
         imageAlt="Nicole Teaching Piano"

@@ -113,12 +113,12 @@ const HomePage = () => (
             reviewText="Begoña is amazing! She has been working with my son for three years, since he was three years old, and with my daughter for one year, since she was two. The kids love her, and so do I! She is patient, understanding, and truly tailors each lesson to the individual child, meeting them where they are. I have referred multiple people to her—including myself! Give her a try; you won’t be disappointed!"
             reviewerName="Adrienne"
           />
-          <Review
-            imageSrc="/images/teaching/maria_teaching.png"
-            imageAlt="FILL ME OUT PLEASE"
+          {/* <Review
+            imageSrc="/images/teaching/maria_teaching_2.png"
+            imageAlt="Maria teaching piano"
             reviewText="FILL ME OUT PLEASE"
-            reviewerName="Maria"
-          />
+            reviewerName="Maria Karla Molina Hernandez"
+          /> */}
         </div>
       </div>
     </div>
