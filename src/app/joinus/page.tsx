@@ -105,9 +105,18 @@ const JoinUsPage: React.FC = () => (
         <details>
           <summary>What is the application process?</summary>
           <p>
-            Fill out the form aboveß, and we will get back to you with the next
+            Fill out the form below, and we will get back to you with the next
             steps.
           </p>
+          <Button
+            key="join-team-btn"
+            variant="cta"
+            onClick={() =>
+              window.open("https://forms.gle/43GvHfD6edjfpMS16", "_blank")
+            }
+          >
+            Join Our Team
+          </Button>
         </details>
       </div>
     </main>
