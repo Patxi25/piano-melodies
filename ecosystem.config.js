@@ -1,10 +1,10 @@
 module.exports = {
   apps: [
     {
-      name: "pianomelodies",
+      name: "piano-melodies",
       script: "npm",
       args: "run start",
-      cwd: "/var/www/pianomelodies",
+      cwd: "/var/www/piano-melodies",
       instances: 1,
       exec_mode: "fork",
       env: {
