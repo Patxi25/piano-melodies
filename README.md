@@ -40,3 +40,11 @@ Make sure you have the following versions installed:
    ```
 
 5. Open your browser and navigate to `http://localhost:3000` to see the application in action.
+
+6. Build for Production
+
+   To compile, optimize, and bundle the application into static assets for production deployment, run:
+
+   ```bashn
+   npm run build
+   ```

@@ -2,7 +2,8 @@ module.exports = {
   apps: [
     {
       name: "pianomelodies",
-      script: "server.js",
+      script: "npm",
+      args: "run start",
       cwd: "/var/www/pianomelodies",
       instances: 1,
       exec_mode: "fork",
